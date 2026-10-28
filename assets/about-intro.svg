@@ -67,8 +67,17 @@
       <!-- Card 3 -->
       <rect x="0" y="250" width="390" height="110" rx="10" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
       <text x="24" y="284" class="ab-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">03 // PROBLEM SOLVING</text>
-      <text x="24" y="312" class="ab-serif" font-size="20" font-weight="700" fill="#F8F0F3">Algorithmic Precision</text>
-      <text x="24" y="336" class="ab-mono" font-size="11.5" fill="#E5B5C7">Competitive coding on LeetCode &amp; HackerRank.</text>
-    </g>
+    <!-- Animated Corner Accents -->
+    <path d="M 18 45 L 18 18 L 45 18" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
+    <circle cx="18" cy="18" r="3" fill="#F8F0F3"/>
+
+    <path d="M 1182 45 L 1182 18 L 1155 18" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
+    <circle cx="1182" cy="18" r="3" fill="#F8F0F3"/>
+
+    <path d="M 18 375 L 18 402 L 45 402" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
+    <circle cx="18" cy="402" r="3" fill="#F8F0F3"/>
+
+    <path d="M 1182 375 L 1182 402 L 1155 402" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
+    <circle cx="1182" cy="402" r="3" fill="#F8F0F3"/>
   </g>
 </svg>

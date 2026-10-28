@@ -60,17 +60,22 @@
   <style>
     .hero-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
     .hero-mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
-    .hero-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
 
-    .hero-rise { animation: hero-rise 1.4s cubic-bezier(.16,1,.3,1) both; }
-    .hero-fade { animation: hero-fade 1.6s cubic-bezier(.16,1,.3,1) both; }
-    .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
-    .d4 { animation-delay: .9s; }
-
-    @keyframes hero-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-    @keyframes hero-fade { from { opacity: 0; } to { opacity: 1; } }
-    @keyframes radarSpin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-    @keyframes radarSpinRev { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
+    @keyframes cornerPulse {
+      0%, 100% { stroke-opacity: 0.35; stroke-dashoffset: 0; filter: drop-shadow(0 0 2px #701A3D); }
+      50% { stroke-opacity: 1; stroke-dashoffset: 15; filter: drop-shadow(0 0 8px #E5B5C7) drop-shadow(0 0 14px #C77B9B); }
+    }
+    @keyframes cornerDotBlink {
+      0%, 100% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+    .corner-bracket {
+      stroke-dasharray: 40 8;
+      animation: cornerPulse 4s ease-in-out infinite;
+    }
+    .corner-dot {
+      animation: cornerDotBlink 2.5s ease-in-out infinite;
+    }
   </style>
 
   <g clip-path="url(#hero-clip)">
@@ -121,60 +126,64 @@
         <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="5s" repeatCount="indefinite"/>
       </path>
       <g clip-path="url(#hero-arch)">
-        <!-- Rich Velvet Fill -->
         <rect x="847" y="84" width="236" height="296" fill="#1e0c16"/>
         <circle cx="965" cy="220" r="80" fill="#701A3D" opacity=".4"/>
         
-        <!-- Luxury Monogram Logo -->
         <circle cx="965" cy="235" r="60" fill="none" stroke="#C77B9B" stroke-width="1.5" stroke-dasharray="8 4"/>
         <text x="965" y="254" text-anchor="middle" class="hero-serif" font-size="54" font-weight="900" fill="#F8F0F3" letter-spacing="2">AY</text>
         
-        <!-- Outer Coordinates Overlay -->
         <text x="965" y="340" text-anchor="middle" class="hero-mono" font-size="10" fill="#C77B9B" letter-spacing="3">28.6139° N / 77.2090° E</text>
       </g>
     </g>
 
-    <!-- Left Content / Typography -->
-    <g transform="translate(60, 60)">
-      <!-- Technical Index Tag -->
-      <g class="hero-rise d1">
-        <text x="0" y="24" class="hero-mono" font-size="11.5" font-weight="700" fill="#C77B9B" letter-spacing="3">
-          01 // ENGINEERING • ARCHITECTURE • CREATIVE TECHNOLOGIES
-        </text>
-        <line x1="0" y1="42" x2="680" y2="42" stroke="url(#hero-rule)" stroke-width="1"/>
-      </g>
+    <!-- Clean Absolute Content Layout (Zero Overlap Guaranteed) -->
+    <!-- 1. Top Technical Category -->
+    <text x="60" y="68" class="hero-mono" font-size="11.5" font-weight="700" fill="#C77B9B" letter-spacing="3">
+      01 // ENGINEERING &#8226; ARCHITECTURE &#8226; CREATIVE TECHNOLOGIES
+    </text>
+    <line x1="60" y1="84" x2="720" y2="84" stroke="url(#hero-rule)" stroke-width="1"/>
 
-      <!-- Main Name Heading -->
-      <g transform="translate(0, 85)" class="hero-rise d2">
-        <text x="0" y="70" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
-          Anubhav
-        </text>
-        <text x="0" y="145" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
-          Yadav.
-        </text>
-        <!-- Animated Light Sheen on Name -->
-        <text x="0" y="145" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-sheen)" letter-spacing="-.5">
-          Yadav.
-        </text>
-      </g>
+    <!-- 2. Main Name Heading -->
+    <text x="60" y="165" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
+      Anubhav
+    </text>
+    <text x="60" y="240" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
+      Yadav.
+    </text>
+    <!-- Animated Sheen on Name -->
+    <text x="60" y="240" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-sheen)" letter-spacing="-.5">
+      Yadav.
+    </text>
 
-      <!-- Subtitle & Role Badges -->
-      <g transform="translate(0, 275)" class="hero-rise d3">
-        <text x="0" y="20" class="hero-mono" font-size="12" font-weight="600" fill="#E5B5C7" letter-spacing="2">
-          FULL-STACK SOFTWARE ENGINEER &amp; CLOUD ARCHITECT
-        </text>
-        <text x="0" y="44" class="hero-serif" font-style="italic" font-size="17" fill="#F8F0F3" letter-spacing=".5">
-          Engineering high-concurrency systems. Designing seamless user experiences.
-        </text>
-      </g>
+    <!-- 3. Subtitle Role & Description -->
+    <text x="60" y="292" class="hero-mono" font-size="12" font-weight="600" fill="#E5B5C7" letter-spacing="2.5">
+      FULL-STACK SOFTWARE ENGINEER &amp; CLOUD ARCHITECT
+    </text>
+    <text x="60" y="326" class="hero-serif" font-style="italic" font-size="17" fill="#F8F0F3" letter-spacing=".5">
+      Engineering high-concurrency systems. Designing seamless user experiences.
+    </text>
 
-      <!-- Bottom Mini Telemetry -->
-      <g transform="translate(0, 360)" class="hero-rise d4">
-        <line x1="0" y1="0" x2="680" y2="0" stroke="url(#hero-rule)" stroke-width="1"/>
-        <text x="0" y="26" class="hero-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">
-          BASE // INDIA (UTC+5:30) &#8226; CORE // TYPESCRIPT &#8226; PYTHON &#8226; NEXT.JS &#8226; NODE.JS
-        </text>
-      </g>
-    </g>
+    <!-- 4. Bottom Rule & Telemetry -->
+    <line x1="60" y1="365" x2="720" y2="365" stroke="url(#hero-rule)" stroke-width="1"/>
+    <text x="60" y="392" class="hero-mono" font-size="11" fill="#C77B9B" letter-spacing="2">
+      BASE // INDIA (UTC+5:30) &#8226; CORE // TYPESCRIPT &#8226; PYTHON &#8226; NEXT.JS &#8226; NODE.JS
+    </text>
+
+    <!-- Animated Corner Accents & Brackets -->
+    <!-- Top-Left Corner -->
+    <path d="M 18 55 L 18 18 L 55 18" fill="none" stroke="#E5B5C7" stroke-width="2.5" class="corner-bracket"/>
+    <circle cx="18" cy="18" r="3.5" fill="#F8F0F3" class="corner-dot"/>
+
+    <!-- Top-Right Corner -->
+    <path d="M 1182 55 L 1182 18 L 1145 18" fill="none" stroke="#E5B5C7" stroke-width="2.5" class="corner-bracket"/>
+    <circle cx="1182" cy="18" r="3.5" fill="#F8F0F3" class="corner-dot"/>
+
+    <!-- Bottom-Left Corner -->
+    <path d="M 18 425 L 18 462 L 55 462" fill="none" stroke="#E5B5C7" stroke-width="2.5" class="corner-bracket"/>
+    <circle cx="18" cy="462" r="3.5" fill="#F8F0F3" class="corner-dot"/>
+
+    <!-- Bottom-Right Corner -->
+    <path d="M 1182 425 L 1182 462 L 1145 462" fill="none" stroke="#E5B5C7" stroke-width="2.5" class="corner-bracket"/>
+    <circle cx="1182" cy="462" r="3.5" fill="#F8F0F3" class="corner-dot"/>
   </g>
 </svg>
