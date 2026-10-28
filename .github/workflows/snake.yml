@@ -16,13 +16,13 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate GitHub Contribution Snake (Netflix Red Edition)
+      - name: Generate GitHub Contribution Snake (Editorial Velvet Plum Edition)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#E50914&color_dots=#141414,#2b0003,#5e0007,#b81d24,#e50914
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#E5B5C7&color_dots=#190B12,#3D1022,#701A3D,#A82C58,#E5B5C7
 
       - name: Deploy Snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

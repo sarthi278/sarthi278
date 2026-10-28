@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Anubhav Yadav — Full-Stack Software Engineer &amp; Solutions Architect</title>
+  <desc id="hero-desc">Engineering high-concurrency systems. Designing seamless interfaces. Full-Stack Developer &amp; Creative Technologist.</desc>
+
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="hero-bg" cx="72%" cy="38%" r="80%">
+      <stop offset="0" stop-color="#2A0E1B"/>
+      <stop offset=".55" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </radialGradient>
+    <radialGradient id="hero-light-a" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-light-b" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hero-name-grad" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="600" y2="0">
+      <stop offset="0" stop-color="#F8F0F3"/>
+      <stop offset=".55" stop-color="#E5B5C7"/>
+      <stop offset="1" stop-color="#C77B9B"/>
+    </linearGradient>
+    <linearGradient id="hero-sheen" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="-40" y2="0">
+      <stop offset="0" stop-color="#F8F0F3" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#F8F0F3" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;900 0;900 0" keyTimes="0;.35;1" dur="8s" begin="2s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="hero-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E5B5C7" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E5B5C7" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#E5B5C7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hero-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#E5B5C7"/>
+      <stop offset=".75" stop-color="#701A3D"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hero-orbit-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5B5C7" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity=".05"/>
+    </linearGradient>
+    <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="hero-grid-fade" cx="68%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="hero-grid-mask">
+      <rect width="1200" height="480" fill="url(#hero-grid-fade)"/>
+    </mask>
+    <clipPath id="hero-arch"><path d="M847 380 V202 A118 118 0 0 1 1083 202 V380 Z"/></clipPath>
+    <clipPath id="hero-clip"><rect width="1200" height="480" rx="20"/></clipPath>
+  </defs>
+
+  <style>
+    .hero-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .hero-mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .hero-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+    .hero-rise { animation: hero-rise 1.4s cubic-bezier(.16,1,.3,1) both; }
+    .hero-fade { animation: hero-fade 1.6s cubic-bezier(.16,1,.3,1) both; }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
+    .d4 { animation-delay: .9s; }
+
+    @keyframes hero-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    @keyframes hero-fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes radarSpin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    @keyframes radarSpinRev { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
+  </style>
+
+  <g clip-path="url(#hero-clip)">
+    <!-- Canvas Base -->
+    <rect width="1200" height="480" fill="url(#hero-bg)"/>
+
+    <!-- Ambient Glow Pulses -->
+    <ellipse cx="920" cy="160" rx="420" ry="300" fill="url(#hero-light-a)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -50 25; 0 0" dur="20s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
+    </ellipse>
+    <ellipse cx="180" cy="440" rx="360" ry="220" fill="url(#hero-light-b)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 60 -20; 0 0" dur="24s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
+    </ellipse>
+
+    <!-- Technical Grid Pattern -->
+    <rect width="1200" height="480" fill="url(#hero-grid)" mask="url(#hero-grid-mask)"/>
+
+    <!-- Subtle Scan Line -->
+    <rect x="0" y="-140" width="1200" height="140" fill="url(#hero-scan)">
+      <animate attributeName="y" values="-140;480" dur="11s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Drifting Star Dust Particles -->
+    <g fill="#E5B5C7">
+      <circle cx="560" cy="120" r="1.4"><animate attributeName="opacity" values="0;.9;0" dur="4.2s" repeatCount="indefinite"/><animate attributeName="cy" values="120;96" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="70" r="1.1"><animate attributeName="opacity" values="0;.8;0" dur="5.6s" begin="1s" repeatCount="indefinite"/><animate attributeName="cy" values="70;48" dur="5.6s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="380" r="1.6"><animate attributeName="opacity" values="0;.9;0" dur="4.8s" begin="2s" repeatCount="indefinite"/><animate attributeName="cy" values="380;352" dur="4.8s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="420" r="1.2"><animate attributeName="opacity" values="0;.7;0" dur="6s" begin=".5s" repeatCount="indefinite"/><animate attributeName="cy" values="420;396" dur="6s" begin=".5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Orbital System around Monogram/Portrait -->
+    <g transform="translate(965 240)">
+      <circle r="210" fill="none" stroke="#C77B9B" stroke-opacity=".12" stroke-dasharray="1 10">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="140s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="185" fill="none" stroke="url(#hero-orbit-grad)" stroke-width="1.2"/>
+      <circle r="155" fill="none" stroke="#C77B9B" stroke-opacity=".18" stroke-dasharray="2 7"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="90s" repeatCount="indefinite"/>
+        <circle cx="0" cy="185" r="3" fill="#F8F0F3"/>
+        <circle cx="-155" cy="0" r="2.5" fill="#C77B9B"/>
+      </g>
+    </g>
+
+    <!-- Luxury Arch Portrait & Monogram Block -->
+    <g>
+      <path d="M835 392 V202 A130 130 0 0 1 1095 202 V392 Z" fill="none" stroke="#C77B9B" stroke-opacity=".3">
+        <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <g clip-path="url(#hero-arch)">
+        <!-- Rich Velvet Fill -->
+        <rect x="847" y="84" width="236" height="296" fill="#1e0c16"/>
+        <circle cx="965" cy="220" r="80" fill="#701A3D" opacity=".4"/>
+        
+        <!-- Luxury Monogram Logo -->
+        <circle cx="965" cy="235" r="60" fill="none" stroke="#C77B9B" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <text x="965" y="254" text-anchor="middle" class="hero-serif" font-size="54" font-weight="900" fill="#F8F0F3" letter-spacing="2">AY</text>
+        
+        <!-- Outer Coordinates Overlay -->
+        <text x="965" y="340" text-anchor="middle" class="hero-mono" font-size="10" fill="#C77B9B" letter-spacing="3">28.6139° N / 77.2090° E</text>
+      </g>
+    </g>
+
+    <!-- Left Content / Typography -->
+    <g transform="translate(60, 60)">
+      <!-- Technical Index Tag -->
+      <g class="hero-rise d1">
+        <text x="0" y="24" class="hero-mono" font-size="11.5" font-weight="700" fill="#C77B9B" letter-spacing="3">
+          01 // ENGINEERING • ARCHITECTURE • CREATIVE TECHNOLOGIES
+        </text>
+        <line x1="0" y1="42" x2="680" y2="42" stroke="url(#hero-rule)" stroke-width="1"/>
+      </g>
+
+      <!-- Main Name Heading -->
+      <g transform="translate(0, 85)" class="hero-rise d2">
+        <text x="0" y="70" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
+          Anubhav
+        </text>
+        <text x="0" y="145" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
+          Yadav.
+        </text>
+        <!-- Animated Light Sheen on Name -->
+        <text x="0" y="145" class="hero-serif" font-size="68" font-weight="700" fill="url(#hero-sheen)" letter-spacing="-.5">
+          Yadav.
+        </text>
+      </g>
+
+      <!-- Subtitle & Role Badges -->
+      <g transform="translate(0, 275)" class="hero-rise d3">
+        <text x="0" y="20" class="hero-mono" font-size="12" font-weight="600" fill="#E5B5C7" letter-spacing="2">
+          FULL-STACK SOFTWARE ENGINEER &amp; CLOUD ARCHITECT
+        </text>
+        <text x="0" y="44" class="hero-serif" font-style="italic" font-size="17" fill="#F8F0F3" letter-spacing=".5">
+          Engineering high-concurrency systems. Designing seamless user experiences.
+        </text>
+      </g>
+
+      <!-- Bottom Mini Telemetry -->
+      <g transform="translate(0, 360)" class="hero-rise d4">
+        <line x1="0" y1="0" x2="680" y2="0" stroke="url(#hero-rule)" stroke-width="1"/>
+        <text x="0" y="26" class="hero-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">
+          BASE // INDIA (UTC+5:30) &nbsp;&bull;&nbsp; CORE // TYPESCRIPT &bull; PYTHON &bull; NEXT.JS &bull; NODE.JS
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

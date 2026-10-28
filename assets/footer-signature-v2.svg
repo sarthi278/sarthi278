@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-labelledby="sig-t">
+  <title id="sig-t">Anubhav Yadav Signature</title>
+  <defs>
+    <linearGradient id="sig-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <radialGradient id="sig-glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#701A3D" stop-opacity=".4"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sig-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B"/>
+      <stop offset=".5" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+    </linearGradient>
+    <clipPath id="sig-clip"><rect width="1200" height="240" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sig-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .sig-mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+  </style>
+  <g clip-path="url(#sig-clip)">
+    <rect width="1200" height="240" fill="url(#sig-bg)"/>
+    <rect width="1200" height="240" fill="url(#sig-glow)"/>
+
+    <g transform="translate(600, 110)">
+      <text text-anchor="middle" class="sig-serif" font-size="64" font-weight="700" fill="url(#sig-grad)" letter-spacing="1">
+        Anubhav
+      </text>
+      <text y="42" text-anchor="middle" class="sig-serif" font-style="italic" font-size="16" fill="#F8F0F3">
+        Building systems that outlast the hype.
+      </text>
+      <text y="78" text-anchor="middle" class="sig-mono" font-size="10" fill="#C77B9B" letter-spacing="4">
+        DISCIPLINE &bull; INTELLIGENCE &bull; ARCHITECTURE
+      </text>
+    </g>
+  </g>
+</svg>
