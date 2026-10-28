@@ -30,16 +30,16 @@
 
     <!-- Glowing Text & Sheen Gradients -->
     <linearGradient id="hero-name-grad" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="650" y2="0">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#FFD1E3"/>
-      <stop offset="100%" stop-color="#FFA3C7"/>
+      <stop offset="0%" stop-color="#F8F0F3"/>
+      <stop offset="55%" stop-color="#E5B5C7"/>
+      <stop offset="100%" stop-color="#C77B9B"/>
     </linearGradient>
 
     <linearGradient id="hero-sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-20" y2="0">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1100 0;1100 0" keyTimes="0;.35;1" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1100 0;1100 0" keyTimes="0;.35;1" dur="7s" begin="2s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="border-light-beam" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -159,42 +159,42 @@
         <circle cx="965" cy="220" r="95" fill="#FF1775" opacity=".55" filter="url(#neon-glow)"/>
         
         <circle cx="965" cy="235" r="62" fill="none" stroke="#FFA3C7" stroke-width="2" stroke-dasharray="10 4"/>
-        <text x="965" y="256" text-anchor="middle" class="hero-serif" font-size="56" font-weight="900" fill="#FFFFFF" letter-spacing="2" filter="url(#neon-glow)">AY</text>
+        <text x="965" y="256" text-anchor="middle" class="hero-serif" font-size="56" font-weight="900" fill="#F8F0F3" letter-spacing="2">AY</text>
         
-        <text x="965" y="340" text-anchor="middle" class="hero-mono" font-size="10.5" font-weight="700" fill="#FFD1E3" letter-spacing="3">28.6139° N / 77.2090° E</text>
+        <text x="965" y="340" text-anchor="middle" class="hero-mono" font-size="10.5" font-weight="700" fill="#E5B5C7" letter-spacing="3">28.6139° N / 77.2090° E</text>
       </g>
     </g>
 
     <!-- Clean Absolute Content Layout -->
     <!-- 1. Top Technical Category -->
-    <text x="60" y="68" class="hero-mono" font-size="11.5" font-weight="700" fill="#FFA3C7" letter-spacing="3">
+    <text x="60" y="68" class="hero-mono" font-size="11.5" font-weight="700" fill="#E5B5C7" letter-spacing="3">
       01 // ENGINEERING &#8226; ARCHITECTURE &#8226; CREATIVE TECHNOLOGIES
     </text>
     <line x1="60" y1="84" x2="720" y2="84" stroke="url(#hero-rule)" stroke-width="1.8"/>
 
-    <!-- 2. Main Name Heading with Brilliant Sheen & Drop-Shadow -->
-    <text x="60" y="165" class="hero-serif" font-size="70" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5" filter="url(#neon-glow)">
+    <!-- 2. Main Name Heading with Crisp, Soft Editorial Lighting -->
+    <text x="60" y="165" class="hero-serif" font-size="70" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
       Anubhav
     </text>
-    <text x="60" y="242" class="hero-serif" font-size="70" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5" filter="url(#neon-glow)">
+    <text x="60" y="242" class="hero-serif" font-size="70" font-weight="700" fill="url(#hero-name-grad)" letter-spacing="-.5">
       Yadav.
     </text>
-    <!-- Sliding Light Sheen -->
+    <!-- Subtle Light Sheen -->
     <text x="60" y="242" class="hero-serif" font-size="70" font-weight="700" fill="url(#hero-sheen)" letter-spacing="-.5">
       Yadav.
     </text>
 
     <!-- 3. Subtitle Role & Description -->
-    <text x="60" y="294" class="hero-mono" font-size="12.5" font-weight="700" fill="#FFB2D1" letter-spacing="2.5">
+    <text x="60" y="294" class="hero-mono" font-size="12" font-weight="600" fill="#C77B9B" letter-spacing="2.5">
       FULL-STACK SOFTWARE ENGINEER &amp; CLOUD ARCHITECT
     </text>
-    <text x="60" y="328" class="hero-serif" font-style="italic" font-size="18" fill="#FFFFFF" letter-spacing=".5">
+    <text x="60" y="328" class="hero-serif" font-style="italic" font-size="17" fill="#F2E6EC" letter-spacing=".5">
       Engineering high-concurrency systems. Designing seamless user experiences.
     </text>
 
     <!-- 4. Bottom Rule & Telemetry -->
     <line x1="60" y1="365" x2="720" y2="365" stroke="url(#hero-rule)" stroke-width="1.8"/>
-    <text x="60" y="392" class="hero-mono" font-size="11.5" font-weight="600" fill="#FFB2D1" letter-spacing="2">
+    <text x="60" y="392" class="hero-mono" font-size="10.5" fill="#A86682" letter-spacing="2">
       BASE // INDIA (UTC+5:30) &#8226; CORE // TYPESCRIPT &#8226; PYTHON &#8226; NEXT.JS &#8226; NODE.JS
     </text>
 
