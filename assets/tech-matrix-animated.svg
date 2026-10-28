@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a16" />
+      <stop offset="100%" stop-color="#0a0f26" />
+    </linearGradient>
+
+    <linearGradient id="meter-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="100%" stop-color="#0066ff" />
+    </linearGradient>
+    <linearGradient id="meter-magenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#bd00ff" />
+    </linearGradient>
+    <linearGradient id="meter-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff66" />
+      <stop offset="100%" stop-color="#00f3ff" />
+    </linearGradient>
+    <linearGradient id="meter-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9900" />
+      <stop offset="100%" stop-color="#ff0055" />
+    </linearGradient>
+
+    <filter id="glow-neon" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes coreSpin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes coreSpinBack {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes meterFill1 {
+      0%, 100% { width: 330px; }
+      50% { width: 310px; }
+    }
+    @keyframes meterFill2 {
+      0%, 100% { width: 320px; }
+      50% { width: 340px; }
+    }
+    @keyframes meterFill3 {
+      0%, 100% { width: 280px; }
+      50% { width: 300px; }
+    }
+    @keyframes meterFill4 {
+      0%, 100% { width: 295px; }
+      50% { width: 275px; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 8px #00f3ff); }
+      50% { opacity: 1; filter: drop-shadow(0 0 16px #00f3ff); }
+    }
+
+    .spin-clock {
+      transform-origin: 130px 150px;
+      animation: coreSpin 10s linear infinite;
+    }
+    .spin-anticlock {
+      transform-origin: 130px 150px;
+      animation: coreSpinBack 15s linear infinite;
+    }
+    .bar-1 { animation: meterFill1 4s ease-in-out infinite; }
+    .bar-2 { animation: meterFill2 3.5s ease-in-out infinite 0.5s; }
+    .bar-3 { animation: meterFill3 4.2s ease-in-out infinite 1s; }
+    .bar-4 { animation: meterFill4 3.8s ease-in-out infinite 0.2s; }
+    .pulsing { animation: pulseGlow 2.5s ease-in-out infinite; }
+  </style>
+
+  <!-- Panel Background -->
+  <rect width="850" height="300" rx="16" fill="url(#bg-grad2)" stroke="#1a2542" stroke-width="1.5" />
+
+  <!-- Holographic Reactor Core (Left Side) -->
+  <g>
+    <!-- Outer Reactor Ring -->
+    <circle cx="130" cy="150" r="90" stroke="#14203d" stroke-width="3" fill="none" />
+    <circle cx="130" cy="150" r="76" stroke="#00f3ff" stroke-width="1.5" stroke-dasharray="14, 8" fill="none" class="spin-clock" opacity="0.8" />
+    <circle cx="130" cy="150" r="62" stroke="#ff007f" stroke-width="1.5" stroke-dasharray="20, 6, 8, 6" fill="none" class="spin-anticlock" opacity="0.9" />
+    <circle cx="130" cy="150" r="46" stroke="#00ff66" stroke-width="1.5" stroke-dasharray="6, 6" fill="none" class="spin-clock" />
+    
+    <!-- Core Center Glowing Node -->
+    <circle cx="130" cy="150" r="28" fill="#0c1733" stroke="#00f3ff" stroke-width="2" class="pulsing" />
+    <text x="130" y="146" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="900" fill="#00f3ff">TECH</text>
+    <text x="130" y="159" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="900" fill="#ff007f">CORE</text>
+
+    <text x="130" y="260" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#7589a8" letter-spacing="1.5">REACTOR: 100% ONLINE</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="260" y1="30" x2="260" y2="270" stroke="#1d2d54" stroke-width="1.5" stroke-dasharray="6, 6" />
+
+  <!-- Right Side: Cyber Telemetry Skill Bars -->
+  <g transform="translate(290, 35)">
+    <!-- Header -->
+    <text x="0" y="15" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#00f3ff" letter-spacing="2">&gt; PROFICIENCY MATRIX // REAL-TIME METRICS</text>
+
+    <!-- 1. Frontend Architecture -->
+    <g transform="translate(0, 35)">
+      <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ffffff">01 // FRONTEND ARCHITECTURE &amp; UI</text>
+      <text x="510" y="14" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00f3ff">96%</text>
+      <!-- Background Bar -->
+      <rect x="0" y="22" width="510" height="8" rx="4" fill="#0d152b" />
+      <!-- Animated Active Bar -->
+      <rect x="0" y="22" height="8" rx="4" fill="url(#meter-cyan)" class="bar-1" filter="url(#glow-neon)" />
+      <text x="0" y="44" font-family="'JetBrains Mono', monospace" font-size="9" fill="#6c82a3">React 18, Next.js 14, TypeScript, TailwindCSS, State Optimization</text>
+    </g>
+
+    <!-- 2. Backend & Microservices -->
+    <g transform="translate(0, 95)">
+      <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ffffff">02 // BACKEND APIS &amp; HIGH CONCURRENCY</text>
+      <text x="510" y="14" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ff007f">94%</text>
+      <rect x="0" y="22" width="510" height="8" rx="4" fill="#0d152b" />
+      <rect x="0" y="22" height="8" rx="4" fill="url(#meter-magenta)" class="bar-2" filter="url(#glow-neon)" />
+      <text x="0" y="44" font-family="'JetBrains Mono', monospace" font-size="9" fill="#6c82a3">Node.js, Express, Python, FastAPI, Async Architecture, REST &amp; GraphQL</text>
+    </g>
+
+    <!-- 3. Database & Distributed Cache -->
+    <g transform="translate(0, 155)">
+      <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ffffff">03 // DATABASES, ORM &amp; IN-MEMORY CACHE</text>
+      <text x="510" y="14" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00ff66">91%</text>
+      <rect x="0" y="22" width="510" height="8" rx="4" fill="#0d152b" />
+      <rect x="0" y="22" height="8" rx="4" fill="url(#meter-green)" class="bar-3" filter="url(#glow-neon)" />
+      <text x="0" y="44" font-family="'JetBrains Mono', monospace" font-size="9" fill="#6c82a3">PostgreSQL, MongoDB, Redis, Prisma, Indexing &amp; Query Optimization</text>
+    </g>
+  </g>
+</svg>

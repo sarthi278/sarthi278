@@ -1,97 +1,84 @@
 <div align="center">
 
-<!-- Terminal Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f0d,40:003b1f,70:00ff66,100:0a0f0d&height=220&section=header&text=anubhav@workstation:~$%20whoami&fontSize=32&fontColor=00ff66&fontAlignY=38&animation=twinkling" width="100%" alt="Terminal Header" />
-
-<!-- Animated Terminal Typing SVG -->
+<!-- Holographic Sci-Fi Animated Cyber Header -->
 <a href="https://github.com/sarthi278">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=00FF66&background=0D111700&center=true&vCenter=true&width=650&height=50&lines=Full-Stack+Web+Developer;Crafting+Scalable+Web+Apps+%26+APIs;Node.js+%7C+React+%7C+Python+%7C+TypeScript;git+commit+-m+'leveling+up+every+single+day'" alt="Typing SVG" />
+  <img src="./assets/cyber-header.svg" width="100%" alt="Cyber HUD Animated Header" />
+</a>
+
+<br><br>
+
+<!-- Multi-Color Animated Typing SVG -->
+<a href="https://github.com/sarthi278">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=2500&pause=900&color=00F3FF&background=0D111700&center=true&vCenter=true&width=750&height=55&lines=%E2%9A%A1+ARCHITECTING+NEXT-GEN+WEB+APPLICATIONS;%F0%9F%9A%80+FULL-STACK+ENGINEER+%7C+REACT+%7C+NODE+%7C+PYTHON;%F0%9F%94%A5+PERFORMANCE-OBSESSED+%7C+CLEAN+CODE;%E2%98%95+TURNING+HIGH-CONCURRENCY+PROBLEMS+INTO+ELEGANT+UX" alt="Animated Typing SVG" />
 </a>
 
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://img.shields.io/badge/Status-Online%20%26%20Building-00ff66?style=for-the-badge&logo=statuspage&logoColor=black&labelColor=0d1117" alt="Status" /></a>
-  <a href="#-tech-arsenal"><img src="https://img.shields.io/badge/Stack-Full--Stack%20Web-00ff66?style=for-the-badge&logo=codeforces&logoColor=00ff66&labelColor=0d1117" alt="Stack" /></a>
-  <a href="#-terminal-stats"><img src="https://img.shields.io/badge/Mode-Interactive%20CLI-00ff66?style=for-the-badge&logo=gnubash&logoColor=00ff66&labelColor=0d1117" alt="CLI" /></a>
+  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/SECURITY-OVERCLOCKED-00f3ff?style=for-the-badge&logo=shield&logoColor=black&labelColor=070a16" alt="Security" /></a>
+  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/STATUS-DEPLOYING_CODE-ff007f?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=070a16" alt="Status" /></a>
+  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/SYSTEM-ONLINE_24%2F7-00ff66?style=for-the-badge&logo=gnubash&logoColor=00ff66&labelColor=070a16" alt="Online" /></a>
 </p>
 
 </div>
 
 ---
 
-### 💻 `cat developer_profile.sh`
+### 🏆 `sys.telemetry --trophies`
 
-```bash
-#!/bin/bash
-# -----------------------------------------------------------------
-# System Information & Developer Neofetch
-# -----------------------------------------------------------------
-
-USER="Anubhav Yadav (@sarthi278)"
-ROLE="Full-Stack Web Developer"
-LOCATION="India (UTC+05:30)"
-STATUS="Crafting scalable web architectures & dynamic user experiences"
-EDITORS="VS Code / Neovim"
-CORE_STACK="TypeScript, React, Next.js, Node.js, Python, PostgreSQL"
-
-echo "------------------------------------------------------------"
-echo "  > Mission: Turn complex backend logic into elegant UX"
-echo "  > Passion: High-performance APIs, distributed systems & UI"
-echo "  > Current Focus: Microservices, Full-Stack Apps & Cloud DevOps"
-echo "------------------------------------------------------------"
-```
+<div align="center">
+  <a href="https://github.com/sarthi278">
+    <img src="https://github-profile-trophy.vercel.app/?username=sarthi278&theme=radical&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=6" width="100%" alt="GitHub Trophies" />
+  </a>
+</div>
 
 ---
 
-### ⚡ `$ neofetch --skills`
+### ⚡ `sys.modules --proficiency-matrix`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,fastapi,postgres,mongodb,redis,docker,git,linux&perline=8&theme=dark" alt="Tech Stack Icons" />
+  <!-- Animated Tech Reactor Core & Proficiency Matrix SVG -->
+  <img src="./assets/tech-matrix-animated.svg" width="100%" alt="Animated Tech Core" />
 </div>
 
 <br>
 
-<details open>
-<summary><b>🛠️ Detailed Arsenal Breakdown</b></summary>
-<br>
-
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Frontend** | `React` `Next.js` `TypeScript` `JavaScript (ES6+)` `TailwindCSS` `HTML5/CSS3` |
-| **Backend** | `Node.js` `Express` `Python` `FastAPI` `Django` `REST APIs` `GraphQL` |
-| **Databases & Cache** | `PostgreSQL` `MongoDB` `Redis` `Prisma ORM` `SQLAlchemy` |
-| **DevOps & Cloud** | `Docker` `Git & GitHub` `Linux` `Vercel` `CI/CD Workflows` |
-
-</details>
-
----
-
-### 🕹️ `python contribution_snake.py`
-
 <div align="center">
-  <!-- Contribution Snake Game Animation -->
-  <img src="https://raw.githubusercontent.com/sarthi278/sarthi278/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+  <!-- Interactive Tech Stack Icons Grid -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,python,fastapi,django,postgres,mongodb,redis,docker,git,linux,postman,vscode&perline=10&theme=dark" alt="Tech Stack Badges" />
+  </a>
 </div>
 
-> *The snake autonomously navigates and eats real GitHub contribution squares via automated GitHub Actions daily.*
+---
+
+### 🕹️ `sys.autonomous --contribution-snake`
+
+<div align="center">
+  <!-- Autonomous Snake Game Navigating Contribution Grid -->
+  <img src="https://raw.githubusercontent.com/sarthi278/sarthi278/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
+</div>
+
+<p align="center">
+  <i>Autonomous neural snake actively consuming commit nodes across the GitHub timeline.</i>
+</p>
 
 ---
 
-### 📊 `$ git log --statistics`
+### 📊 `sys.metrics --performance-diagnostics`
 
 <div align="center">
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=sarthi278&show_icons=true&theme=matrix&hide_border=false&include_all_commits=true&count_private=true" width="100%" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=sarthi278&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true" width="100%" alt="GitHub Stats" />
     </td>
     <td width="50%">
-      <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=matrix&hide_border=false" width="100%" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=radical&hide_border=false" width="100%" alt="GitHub Streak" />
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarthi278&layout=compact&theme=matrix&hide_border=false" width="100%" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarthi278&layout=compact&theme=radical&hide_border=false" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
@@ -100,29 +87,48 @@ echo "------------------------------------------------------------"
 
 ---
 
-### 📈 `$ monitor --activity-graph`
+### 📈 `sys.activity --commit-frequency`
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sarthi278&theme=matrix&hide_border=false" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sarthi278&theme=radical&hide_border=false" width="100%" alt="Commit Activity Graph" />
 </div>
 
 ---
 
-### 📡 `$ ping --connect`
+### 💻 `cat /etc/developer_manifesto.json`
+
+```json
+{
+  "developer": "Anubhav Yadav",
+  "callsign": "sarthi278",
+  "role": "Full-Stack Software Architect",
+  "specialties": [
+    "High-Performance Web Applications (React / Next.js)",
+    "Scalable Backend Services & REST APIs (Node.js / Python)",
+    "Optimized Relational & NoSQL Datastores (PostgreSQL / MongoDB)",
+    "Containerization & Microservices (Docker / Linux)"
+  ],
+  "mantra": "Ship fast, optimize fearlessly, and build software that feels like magic."
+}
+```
+
+---
+
+### 📡 `sys.network --open-frequencies`
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00ff66&borderColor=00ff66" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00f3ff&borderColor=00f3ff" alt="LinkedIn" />
 </a>
+&nbsp;
 <a href="https://github.com/sarthi278" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff66&borderColor=00ff66" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub_HQ-000000?style=for-the-badge&logo=github&logoColor=ff007f&borderColor=ff007f" alt="GitHub" />
 </a>
 
-</div>
+<br><br>
 
-<br>
+<!-- Cyber Glowing Wave Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f3ff,50:bd00ff,100:070a16&height=130&section=footer" width="100%" alt="Futuristic Footer Wave" />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff66,50:003b1f,100:0a0f0d&height=120&section=footer" width="100%" alt="Footer" />
 </div>
