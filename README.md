@@ -48,6 +48,36 @@
 
 ---
 
+### 🧠 `sys.competitive --coding-intelligence`
+
+<div align="center">
+
+<a href="https://leetcode.com/u/sarthi278/" target="_blank">
+  <!-- Animated LeetCode Real-Time Stats Card -->
+  <img src="https://leetcard.jacoblin.cool/sarthi278?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="48%" />
+</a>
+&nbsp;
+<a href="https://streak-stats.demolab.com/?user=sarthi278&theme=radical&hide_border=false" target="_blank">
+  <!-- GitHub Real-time Streak Diagnostics -->
+  <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=radical&hide_border=false" alt="GitHub Streak Stats" width="48%" />
+</a>
+
+<br><br>
+
+<p align="center">
+  <a href="https://leetcode.com/u/sarthi278/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
+  </a>
+  &nbsp;
+  <a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank Profile" />
+  </a>
+</p>
+
+</div>
+
+---
+
 ### ⚡ `sys.stack --tech-arsenal`
 
 <div align="center">
@@ -71,17 +101,6 @@
 | **DevOps & Infrastructure** | `Docker` `Git & GitHub Actions` `Linux / Bash` `Vercel` `CI/CD Automation` |
 
 </details>
-
----
-
-### 📊 `sys.metrics --commit-streak`
-
-<div align="center">
-  <!-- Neon Radical Streak Stats Card -->
-  <a href="https://github.com/sarthi278">
-    <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=radical&hide_border=false" width="100%" alt="GitHub Streak Stats" />
-  </a>
-</div>
 
 ---
 
@@ -114,6 +133,14 @@
 &nbsp;
 <a href="https://portfolio2-o-eight.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00ff66&borderColor=00ff66" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="https://leetcode.com/u/sarthi278/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116&borderColor=FFA116" alt="LeetCode" />
+</a>
+&nbsp;
+<a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank">
+  <img src="https://img.shields.io/badge/HackerRank-000000?style=for-the-badge&logo=hackerrank&logoColor=00EA64&borderColor=00EA64" alt="HackerRank" />
 </a>
 &nbsp;
 <a href="https://github.com/sarthi278" target="_blank">
