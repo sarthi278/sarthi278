@@ -1,155 +1,197 @@
 <div align="center">
 
-<!-- Animated Twinkling Neon Cyber Header Banner -->
+<!-- Iconic Animated Netflix Brand Header -->
 <a href="https://github.com/sarthi278">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,22,25&height=260&section=header&text=%E2%9A%A1%20ANUBHAV%20YADAV%20%E2%9A%A1&fontSize=40&fontAlignY=36&desc=Full-Stack%20Software%20Architect%20%7C%20Building%20Next-Gen%20Web%20Experiences&descAlignY=58&descAlign=50&animation=twinkling" width="100%" alt="Animated Cyber Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141414,35:221f1f,70:E50914,100:141414&height=260&section=header&text=NETFLIX&fontSize=60&fontColor=E50914&fontAlignY=38&desc=*ta-dum*%20%7C%20NOW%20STREAMING:%20ANUBHAV%20YADAV&descAlignY=62&descAlign=50&animation=twinkling" width="100%" alt="Netflix Header" />
 </a>
 
 <br>
 
-<!-- Multi-Line Animated Cyber Typing SVG -->
+<!-- Movie Poster Title Typography -->
 <a href="https://github.com/sarthi278">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=00F3FF&center=true&vCenter=true&width=750&height=50&lines=Full-Stack+Software+Architect;React+%7C+Next.js+%7C+TypeScript+%7C+Node.js+%7C+Python;Architecting+High-Performance+Web+Applications;Turning+Complex+Problems+into+Clean+Scalable+Code" alt="Animated Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&weight=700&size=28&duration=2500&pause=1000&color=E50914&center=true&vCenter=true&width=750&height=55&lines=A+NETFLIX+ORIGINAL+SERIES;SEASON+2026:+THE+FULL-STACK+DEVELOPER;STARRING+ANUBHAV+YADAV+(@sarthi278);99%+MATCH+FOR+HIGH-PERFORMANCE+ENGINEERING" alt="Netflix Typing Banner" />
 </a>
 
 <br><br>
 
-<p align="center">
-  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/SECURITY-OVERCLOCKED-00f3ff?style=for-the-badge&logo=shield&logoColor=black&labelColor=070a16" alt="Security" /></a>
-  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/STATUS-DEPLOYING_CODE-ff007f?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=070a16" alt="Status" /></a>
-  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/SYSTEM-ONLINE_24%2F7-00ff66?style=for-the-badge&logo=gnubash&logoColor=00ff66&labelColor=070a16" alt="Online" /></a>
-</p>
+<!-- Who's Watching? Netflix Profiles Selector -->
+<h3>👥 Who's Watching?</h3>
 
-</div>
+<table>
+  <tr>
+    <td align="center" width="160">
+      <a href="https://portfolio2-o-eight.vercel.app/" target="_blank">
+        <img src="https://img.icons8.com/color/96/000000/netflix-desktop-app--v1.png" width="80" style="border-radius: 8px; border: 3px solid #E50914;" alt="Anubhav" /><br>
+        <b>Anubhav</b><br>
+        <sub>(Full-Stack)</sub>
+      </a>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/sarthi278" target="_blank">
+        <img src="https://img.icons8.com/color/96/000000/guest-male--v1.png" width="80" style="border-radius: 8px; border: 3px solid #555;" alt="Recruiter" /><br>
+        <b>Recruiter</b><br>
+        <sub>(Guest)</sub>
+      </a>
+    </td>
+    <td align="center" width="160">
+      <a href="https://leetcode.com/u/sarthi278/" target="_blank">
+        <img src="https://img.icons8.com/color/96/000000/brainstorm-skill.png" width="80" style="border-radius: 8px; border: 3px solid #555;" alt="LeetCoder" /><br>
+        <b>LeetCoder</b><br>
+        <sub>(Algorithms)</sub>
+      </a>
+    </td>
+    <td align="center" width="160">
+      <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank">
+        <img src="https://img.icons8.com/color/96/000000/add--v1.png" width="80" style="border-radius: 8px; border: 3px dashed #777;" alt="Add Profile" /><br>
+        <b>Connect</b><br>
+        <sub>(Add Profile)</sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
----
-
-### 🕹️ `sys.autonomous --contribution-snake`
-
-<div align="center">
-  <!-- Autonomous Snake Game Navigating Contribution Grid -->
-  <img src="https://raw.githubusercontent.com/sarthi278/sarthi278/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
-</div>
-
-<p align="center">
-  <i>Autonomous neural snake actively consuming commit nodes across the GitHub timeline.</i>
-</p>
-
----
-
-### 💻 `sys.terminal --live-simulator`
-
-<div align="center">
-  <!-- Animated Pure CSS Terminal Simulator SVG -->
-  <a href="https://github.com/sarthi278">
-    <img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=sarthi278&theme=tokyonight" width="100%" alt="Terminal Simulator Stats" />
-  </a>
-</div>
-
----
-
-### 🧠 `sys.competitive --coding-intelligence`
-
-<div align="center">
-
-<a href="https://leetcode.com/u/sarthi278/" target="_blank">
-  <!-- Animated LeetCode Real-Time Stats Card -->
-  <img src="https://leetcard.jacoblin.cool/sarthi278?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="48%" />
-</a>
-&nbsp;
-<a href="https://streak-stats.demolab.com/?user=sarthi278&theme=radical&hide_border=false" target="_blank">
-  <!-- GitHub Real-time Streak Diagnostics -->
-  <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=radical&hide_border=false" alt="GitHub Streak Stats" width="48%" />
-</a>
-
-<br><br>
+<br>
 
 <p align="center">
-  <a href="https://leetcode.com/u/sarthi278/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
-  </a>
+  <a href="https://portfolio2-o-eight.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/%E2%96%B6%20Play-Explore%20Portfolio-E50914?style=for-the-badge&logo=netflix&logoColor=white&labelColor=141414" alt="Play" /></a>
   &nbsp;
-  <a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank Profile" />
-  </a>
+  <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank"><img src="https://img.shields.io/badge/%E2%9C%93%20My%20List-Hire%20Anubhav-ffffff?style=for-the-badge&logoColor=black&labelColor=141414" alt="My List" /></a>
+  &nbsp;
+  <a href="https://github.com/sarthi278"><img src="https://img.shields.io/badge/%F0%9F%91%8D%20Rate-99%25%20Match-E50914?style=for-the-badge&logoColor=white&labelColor=141414" alt="Rate" /></a>
 </p>
 
 </div>
 
 ---
 
-### ⚡ `sys.stack --tech-arsenal`
+### 🎬 `FEATURED ORIGINAL: THE FULL-STACK ARCHITECT`
 
-<div align="center">
-  <!-- Interactive Tech Stack Icons Grid -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,python,fastapi,django,postgres,mongodb,redis,docker,git,linux,postman,vscode&perline=10&theme=dark" alt="Tech Stack Badges" />
-  </a>
-</div>
-
-<br>
-
-<details open>
-<summary><b>🛠️ Cyber Stack Telemetry Breakdown</b></summary>
-<br>
-
-| Domain | Core Weapons & Technologies |
-| :--- | :--- |
-| **Frontend Architecture** | `React 18` `Next.js 14` `TypeScript` `JavaScript (ES6+)` `TailwindCSS` `Redux / Zustand` |
-| **Backend & Microservices** | `Node.js` `Express` `Python` `FastAPI` `Django` `REST APIs` `GraphQL` |
-| **Databases & In-Memory** | `PostgreSQL` `MongoDB` `Redis` `Prisma ORM` `SQLAlchemy` |
-| **DevOps & Infrastructure** | `Docker` `Git & GitHub Actions` `Linux / Bash` `Vercel` `CI/CD Automation` |
-
-</details>
-
----
-
-### 📡 `cat /etc/developer_manifesto.json`
-
-```json
-{
-  "developer": "Anubhav Yadav",
-  "callsign": "sarthi278",
-  "role": "Full-Stack Software Architect",
-  "specialties": [
-    "High-Performance Web Applications (React / Next.js)",
-    "Scalable Backend Services & REST APIs (Node.js / Python)",
-    "Optimized Relational & NoSQL Datastores (PostgreSQL / MongoDB)",
-    "Containerization & Microservices (Docker / Linux)"
-  ],
-  "mantra": "Ship fast, optimize fearlessly, and build software that feels like magic."
-}
+```yaml
+Title: The Full-Stack Architect
+Rating: 99% Match | TV-MA (Master of Architecture) | 2026 | 4K Ultra HD | 5.1 Surround
+Starring: Anubhav Yadav (@sarthi278)
+Genres: Clean Code, Scalable APIs, Microservices, High Concurrency, Algorithmic Problem Solving
+Synopsis: |
+  In an ecosystem cluttered with slow monoliths, one full-stack software engineer crafts 
+  ultra-responsive user experiences with React & Next.js, while orchestrating robust backend 
+  services in Node.js & Python. Powered by clean code, caffeine, and relentless curiosity.
+Audio: English [Original], Hindi
+Subtitles: TypeScript, Python, SQL, Docker
 ```
 
 ---
 
-### 🌐 `sys.network --open-frequencies`
+### 🍿 `TRENDING NOW: THE COMMIT SPREE`
+
+<div align="center">
+  <!-- Autonomous Contribution Grid Snake in Netflix Red Theme -->
+  <img src="https://raw.githubusercontent.com/sarthi278/sarthi278/output/github-contribution-grid-snake-dark.svg" alt="Netflix Snake Animation" width="100%" />
+</div>
+
+<p align="center">
+  <i>🔴 Binge-watching commits: The automated snake consumes daily contributions across the GitHub timeline.</i>
+</p>
+
+---
+
+### 🏆 `TOP 10 IN TECH STACK TODAY`
+
+<div align="center">
+  <!-- Tech Stack Grid with dark Netflix Cinema aesthetic -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,python,fastapi,django,postgres,mongodb,redis,docker,git,linux,postman,vscode&perline=10&theme=dark" alt="Top 10 Tech Stack" />
+  </a>
+</div>
+
+<br>
+
+| Rank | Title | Genre / Framework | Status |
+| :---: | :--- | :--- | :---: |
+| **#1** | **Next.js & React 18** | Frontend Cinema & SSR | 🌟 Trending #1 |
+| **#2** | **TypeScript** | Type-Safe Precision | 🚀 Most Watched |
+| **#3** | **Node.js & Express** | High-Throughput APIs | 🔥 Blockbuster |
+| **#4** | **Python & FastAPI** | Backend & Algorithmic Logic | ⚡ Critically Acclaimed |
+| **#5** | **PostgreSQL & Redis** | Persistent & In-Memory Storage | 💎 Fan Favorite |
+| **#6** | **Docker & Linux** | Microservices & Infrastructure | 📦 Production Ready |
+
+---
+
+### 📈 `CRITICALLY ACCLAIMED: PERFORMANCE METRICS`
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00f3ff&borderColor=00f3ff" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://portfolio2-o-eight.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00ff66&borderColor=00ff66" alt="Portfolio" />
-</a>
-&nbsp;
 <a href="https://leetcode.com/u/sarthi278/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116&borderColor=FFA116" alt="LeetCode" />
-</a>
-&nbsp;
-<a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank">
-  <img src="https://img.shields.io/badge/HackerRank-000000?style=for-the-badge&logo=hackerrank&logoColor=00EA64&borderColor=00EA64" alt="HackerRank" />
+  <!-- Real-Time LeetCode Stats Card -->
+  <img src="https://leetcard.jacoblin.cool/sarthi278?theme=dark&font=Fira%20Code" width="48%" alt="LeetCode Stats" />
 </a>
 &nbsp;
 <a href="https://github.com/sarthi278" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub_HQ-000000?style=for-the-badge&logo=github&logoColor=ff007f&borderColor=ff007f" alt="GitHub" />
+  <!-- Customized Netflix Red & Dark Streak Card -->
+  <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=dark&border=E50914&stroke=E50914&ring=E50914&fire=E50914&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=E50914&sideLabels=E50914&dates=888888&background=141414&hide_border=false" width="48%" alt="Netflix Streak Card" />
+</a>
+
+</div>
+
+---
+
+### 📺 `EPISODES & SEASONS (TECH ROADMAP)`
+
+<details open>
+<summary><b>🎬 Season 1: The Frontend Conquest</b></summary>
+<br>
+
+- **Episode 1: DOM Awakening** — Modern HTML5 Semantic Structures & Responsive CSS3 Flex/Grid layouts.
+- **Episode 2: The TypeScript Protocol** — Strictly-typed scalable web clients with zero runtime surprises.
+- **Episode 3: Next.js Elevation** — Server-Side Rendering (SSR), Static Site Generation (SSG), and Edge Caching.
+</details>
+
+<details>
+<summary><b>🎬 Season 2: The Backend Nexus</b></summary>
+<br>
+
+- **Episode 1: The Asynchronous Loop** — Event-driven I/O in Node.js & resilient Express middlewares.
+- **Episode 2: Pythonic Precision** — High-speed async APIs with FastAPI & data modeling with Django.
+- **Episode 3: Security & Token Gates** — JWT authentication, RBAC, rate-limiting, and CORS configuration.
+</details>
+
+<details>
+<summary><b>🎬 Season 3: The Data Chamber</b></summary>
+<br>
+
+- **Episode 1: Relational Order** — Complex schemas, indexing, and ACID transactions in PostgreSQL.
+- **Episode 2: NoSQL Agility** — Flexible document modeling with MongoDB.
+- **Episode 3: Lightning Speed Cache** — In-memory caching, pub/sub queues, and session persistence in Redis.
+</details>
+
+---
+
+### 📞 `QUESTIONS? CALL 1-800-ANUBHAV-DEV`
+
+<div align="center">
+
+<a href="https://portfolio2-o-eight.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-E50914?style=for-the-badge&logo=firefox&logoColor=white&labelColor=141414" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-E50914?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141414" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://leetcode.com/u/sarthi278/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-E50914?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=141414" alt="LeetCode" />
+</a>
+&nbsp;
+<a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank">
+  <img src="https://img.shields.io/badge/HackerRank-E50914?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=141414" alt="HackerRank" />
+</a>
+&nbsp;
+<a href="https://github.com/sarthi278" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub_HQ-E50914?style=for-the-badge&logo=github&logoColor=white&labelColor=141414" alt="GitHub" />
 </a>
 
 <br><br>
 
-<!-- Animated Glowing Wave Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=25,22,8,2,0&height=120&section=footer" width="100%" alt="Footer Wave" />
+<!-- Netflix Bottom Red Fade Out -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E50914,60:B81D24,100:141414&height=120&section=footer" width="100%" alt="Netflix Footer" />
 
 </div>
