@@ -21,9 +21,9 @@
       <text x="24" y="100" class="ach-serif" font-size="52" font-weight="700" fill="#F8F0F3">20+</text>
       <text x="24" y="130" class="ach-mono" font-size="12" font-weight="700" fill="#E5B5C7">ALGORITHMS SOLVED</text>
       <line x1="24" y1="155" x2="236" y2="155" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Easy: 4 / 974</text>
-      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Medium: 12 / 2136</text>
-      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Hard: 4 / 986</text>
+      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Easy: 4 / 974</text>
+      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Medium: 12 / 2136</text>
+      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Hard: 4 / 986</text>
       <text x="24" y="260" class="ach-mono" font-size="9.5" fill="#C77B9B">PROFILE: @sarthi278</text>
     </g>
 
@@ -34,9 +34,9 @@
       <text x="24" y="100" class="ach-serif" font-size="52" font-weight="700" fill="#F8F0F3">5&#9733;</text>
       <text x="24" y="130" class="ach-mono" font-size="12" font-weight="700" fill="#E5B5C7">PROBLEM SOLVING</text>
       <line x1="24" y1="155" x2="236" y2="155" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Python &amp; Data Structures</text>
-      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Algorithmic Challenges</text>
-      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Core Logic Mastery</text>
+      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Python &amp; Data Structures</text>
+      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Algorithmic Challenges</text>
+      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Core Logic Mastery</text>
       <text x="24" y="260" class="ach-mono" font-size="9.5" fill="#C77B9B">PROFILE: @yadavanubhav848</text>
     </g>
 
@@ -47,9 +47,9 @@
       <text x="24" y="100" class="ach-serif" font-size="52" font-weight="700" fill="#F8F0F3">99.8%</text>
       <text x="24" y="130" class="ach-mono" font-size="12" font-weight="700" fill="#E5B5C7">UPTIME &amp; RELIABILITY</text>
       <line x1="24" y1="155" x2="236" y2="155" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Next.js 14 SSR Architecture</text>
-      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Resilient REST/GraphQL APIs</text>
-      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; In-Memory Redis Caching</text>
+      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Next.js 14 SSR Architecture</text>
+      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Resilient REST/GraphQL APIs</text>
+      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; In-Memory Redis Caching</text>
       <text x="24" y="260" class="ach-mono" font-size="9.5" fill="#C77B9B">CONTAINERIZED WITH DOCKER</text>
     </g>
 
@@ -60,9 +60,9 @@
       <text x="24" y="100" class="ach-serif" font-size="52" font-weight="700" fill="#F8F0F3">35+</text>
       <text x="24" y="130" class="ach-mono" font-size="12" font-weight="700" fill="#E5B5C7">ACTIVE REPOSITORIES</text>
       <line x1="24" y1="155" x2="226" y2="155" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Full-Stack Web Projects</text>
-      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Python &amp; Data Engineering</text>
-      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&bull; Daily Commit Streak</text>
+      <text x="24" y="185" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Full-Stack Web Projects</text>
+      <text x="24" y="210" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Python &amp; Data Engineering</text>
+      <text x="24" y="235" class="ach-mono" font-size="11" fill="#F8F0F3">&#8226; Daily Commit Streak</text>
       <text x="24" y="260" class="ach-mono" font-size="9.5" fill="#C77B9B">GITHUB: @sarthi278</text>
     </g>
   </g>

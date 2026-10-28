@@ -172,7 +172,7 @@
       <g transform="translate(0, 360)" class="hero-rise d4">
         <line x1="0" y1="0" x2="680" y2="0" stroke="url(#hero-rule)" stroke-width="1"/>
         <text x="0" y="26" class="hero-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">
-          BASE // INDIA (UTC+5:30) &nbsp;&bull;&nbsp; CORE // TYPESCRIPT &bull; PYTHON &bull; NEXT.JS &bull; NODE.JS
+          BASE // INDIA (UTC+5:30) &#8226; CORE // TYPESCRIPT &#8226; PYTHON &#8226; NEXT.JS &#8226; NODE.JS
         </text>
       </g>
     </g>

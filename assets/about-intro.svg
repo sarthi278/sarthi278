@@ -32,7 +32,7 @@
     <g transform="translate(65, 100)" class="ab-mono" font-size="13">
       <!-- Line 1 -->
       <text y="0" fill="#E5B5C7" font-weight="700">&gt; whoami</text>
-      <text y="24" fill="#F8F0F3">Anubhav Yadav (@sarthi278) &mdash; Full-Stack Software Engineer</text>
+      <text y="24" fill="#F8F0F3">Anubhav Yadav (@sarthi278) &#8212; Full-Stack Software Engineer</text>
 
       <!-- Line 2 -->
       <text y="62" fill="#E5B5C7" font-weight="700">&gt; cat location.json</text>
@@ -40,7 +40,7 @@
 
       <!-- Line 3 -->
       <text y="124" fill="#E5B5C7" font-weight="700">&gt; cat tech_core.txt</text>
-      <text y="148" fill="#F8F0F3">TypeScript &bull; React &bull; Next.js 14 &bull; Node.js &bull; Python &bull; PostgreSQL &bull; Docker</text>
+      <text y="148" fill="#F8F0F3">TypeScript &#8226; React &#8226; Next.js 14 &#8226; Node.js &#8226; Python &#8226; PostgreSQL &#8226; Docker</text>
 
       <!-- Line 4 -->
       <text y="186" fill="#E5B5C7" font-weight="700">&gt; cat philosophy.md</text>
