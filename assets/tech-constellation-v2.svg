@@ -1,8 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="tc-t">
   <title id="tc-t">Toolset Constellation</title>
   <defs>
-    <linearGradient id="tc-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-    <clipPath id="tc-clip"><rect width="1200" height="320" rx="14"/></clipPath>
+    <radialGradient id="tc-bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#3A0F25"/>
+      <stop offset="60%" stop-color="#200915"/>
+      <stop offset="100%" stop-color="#12040B"/>
+    </radialGradient>
+    <radialGradient id="tc-glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#FF1775" stop-opacity=".65"/><stop offset="100%" stop-color="#FF1775" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tc-border" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FF66A3"/><stop offset="50%" stop-color="#FF1775"/><stop offset="100%" stop-color="#FF66A3"/></linearGradient>
+    <filter id="neon-glow5" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="tc-clip"><rect width="1200" height="320" rx="16"/></clipPath>
   </defs>
   <style>
     .tc-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
@@ -10,57 +20,61 @@
   </style>
   <g clip-path="url(#tc-clip)">
     <rect width="1200" height="320" fill="url(#tc-bg)"/>
+    <rect width="1200" height="320" fill="url(#tc-glow)"/>
+
+    <!-- Luminous Outer Border -->
+    <rect x="3" y="3" width="1194" height="314" rx="14" fill="none" stroke="url(#tc-border)" stroke-width="2" filter="url(#neon-glow5)"/>
 
     <!-- Column 1: Core Languages -->
     <g transform="translate(40, 25)">
-      <rect width="260" height="270" rx="12" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="38" class="tc-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">01 // LANGUAGES</text>
-      <text x="24" y="70" class="tc-serif" font-size="24" font-weight="700" fill="#F8F0F3">Core Syntax</text>
-      <line x1="24" y1="88" x2="236" y2="88" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="120" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">TypeScript</text>
-      <text x="24" y="145" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">JavaScript (ES6+)</text>
-      <text x="24" y="170" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Python 3.x</text>
-      <text x="24" y="195" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">SQL / PostgreSQL</text>
-      <text x="24" y="220" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">C / C++ (Foundations)</text>
+      <rect width="260" height="270" rx="12" fill="#1C0814" stroke="#FF1775" stroke-width="1.6"/>
+      <text x="24" y="38" class="tc-mono" font-size="10.5" font-weight="700" fill="#FFA8CC" letter-spacing="2">01 // LANGUAGES</text>
+      <text x="24" y="70" class="tc-serif" font-size="25" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow5)">Core Syntax</text>
+      <line x1="24" y1="88" x2="236" y2="88" stroke="#FF1775" stroke-width="1.2"/>
+      <text x="24" y="120" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">TypeScript</text>
+      <text x="24" y="146" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">JavaScript (ES6+)</text>
+      <text x="24" y="172" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Python 3.x</text>
+      <text x="24" y="198" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">SQL / PostgreSQL</text>
+      <text x="24" y="224" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">C / C++ (Foundations)</text>
     </g>
 
     <!-- Column 2: Frontend -->
     <g transform="translate(330, 25)">
-      <rect width="260" height="270" rx="12" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="38" class="tc-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">02 // CLIENT TIER</text>
-      <text x="24" y="70" class="tc-serif" font-size="24" font-weight="700" fill="#F8F0F3">Frontend</text>
-      <line x1="24" y1="88" x2="236" y2="88" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="120" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">React 18 &amp; Hooks</text>
-      <text x="24" y="145" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Next.js 14 (App Router)</text>
-      <text x="24" y="170" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">TailwindCSS</text>
-      <text x="24" y="195" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Zustand &amp; Redux</text>
-      <text x="24" y="220" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">HTML5 &amp; Modern CSS</text>
+      <rect width="260" height="270" rx="12" fill="#1C0814" stroke="#FF1775" stroke-width="1.6"/>
+      <text x="24" y="38" class="tc-mono" font-size="10.5" font-weight="700" fill="#FFA8CC" letter-spacing="2">02 // CLIENT TIER</text>
+      <text x="24" y="70" class="tc-serif" font-size="25" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow5)">Frontend</text>
+      <line x1="24" y1="88" x2="236" y2="88" stroke="#FF1775" stroke-width="1.2"/>
+      <text x="24" y="120" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">React 18 &amp; Hooks</text>
+      <text x="24" y="146" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Next.js 14 (App Router)</text>
+      <text x="24" y="172" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">TailwindCSS</text>
+      <text x="24" y="198" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Zustand &amp; Redux</text>
+      <text x="24" y="224" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">HTML5 &amp; Modern CSS</text>
     </g>
 
     <!-- Column 3: Backend & APIs -->
     <g transform="translate(620, 25)">
-      <rect width="260" height="270" rx="12" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="38" class="tc-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">03 // SERVER TIER</text>
-      <text x="24" y="70" class="tc-serif" font-size="24" font-weight="700" fill="#F8F0F3">Backend APIs</text>
-      <line x1="24" y1="88" x2="236" y2="88" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="120" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Node.js &amp; Express</text>
-      <text x="24" y="145" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Python &amp; FastAPI</text>
-      <text x="24" y="170" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Django REST Framework</text>
-      <text x="24" y="195" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">REST &amp; GraphQL APIs</text>
-      <text x="24" y="220" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">JWT &amp; OAuth 2.0</text>
+      <rect width="260" height="270" rx="12" fill="#1C0814" stroke="#FF1775" stroke-width="1.6"/>
+      <text x="24" y="38" class="tc-mono" font-size="10.5" font-weight="700" fill="#FFA8CC" letter-spacing="2">03 // SERVER TIER</text>
+      <text x="24" y="70" class="tc-serif" font-size="25" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow5)">Backend APIs</text>
+      <line x1="24" y1="88" x2="236" y2="88" stroke="#FF1775" stroke-width="1.2"/>
+      <text x="24" y="120" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Node.js &amp; Express</text>
+      <text x="24" y="146" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Python &amp; FastAPI</text>
+      <text x="24" y="172" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Django REST Framework</text>
+      <text x="24" y="198" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">REST &amp; GraphQL APIs</text>
+      <text x="24" y="224" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">JWT &amp; OAuth 2.0</text>
     </g>
 
     <!-- Column 4: Data & DevOps -->
     <g transform="translate(910, 25)">
-      <rect width="250" height="270" rx="12" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="38" class="tc-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">04 // INFRASTRUCTURE</text>
-      <text x="24" y="70" class="tc-serif" font-size="24" font-weight="700" fill="#F8F0F3">Cloud &amp; Data</text>
-      <line x1="24" y1="88" x2="226" y2="88" stroke="#701A3D" stroke-width="1"/>
-      <text x="24" y="120" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">PostgreSQL</text>
-      <text x="24" y="145" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">MongoDB</text>
-      <text x="24" y="170" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Redis In-Memory Cache</text>
-      <text x="24" y="195" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Docker &amp; Containers</text>
-      <text x="24" y="220" class="tc-mono" font-size="13" font-weight="700" fill="#E5B5C7">Git &amp; GitHub Actions</text>
+      <rect width="250" height="270" rx="12" fill="#1C0814" stroke="#FF1775" stroke-width="1.6"/>
+      <text x="24" y="38" class="tc-mono" font-size="10.5" font-weight="700" fill="#FFA8CC" letter-spacing="2">04 // INFRASTRUCTURE</text>
+      <text x="24" y="70" class="tc-serif" font-size="25" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow5)">Cloud &amp; Data</text>
+      <line x1="24" y1="88" x2="226" y2="88" stroke="#FF1775" stroke-width="1.2"/>
+      <text x="24" y="120" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">PostgreSQL</text>
+      <text x="24" y="146" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">MongoDB</text>
+      <text x="24" y="172" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Redis In-Memory Cache</text>
+      <text x="24" y="198" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Docker &amp; Containers</text>
+      <text x="24" y="224" class="tc-mono" font-size="13.5" font-weight="700" fill="#FFFFFF">Git &amp; GitHub Actions</text>
     </g>
   </g>
 </svg>

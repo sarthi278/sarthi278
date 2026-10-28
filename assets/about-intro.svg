@@ -2,10 +2,18 @@
   <title id="ab-t">About Anubhav Yadav</title>
   <desc id="ab-d">Full-Stack Software Engineer and Cloud Architect. Building high-performance web applications and distributed systems.</desc>
   <defs>
-    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-    <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#701A3D" stop-opacity=".6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
-    <pattern id="ab-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#F8F0F3" opacity=".025"/></pattern>
-    <clipPath id="ab-clip"><rect width="1200" height="420" rx="14"/></clipPath>
+    <radialGradient id="ab-bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#3A0F25"/>
+      <stop offset="60%" stop-color="#200915"/>
+      <stop offset="100%" stop-color="#12040B"/>
+    </radialGradient>
+    <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#FF1775" stop-opacity=".75"/><stop offset="100%" stop-color="#FF1775" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ab-border" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FF66A3"/><stop offset="50%" stop-color="#FF1775"/><stop offset="100%" stop-color="#FF66A3"/></linearGradient>
+    <filter id="neon-glow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="ab-clip"><rect width="1200" height="420" rx="16"/></clipPath>
   </defs>
   <style>
     .ab-mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
@@ -16,68 +24,74 @@
   <g clip-path="url(#ab-clip)">
     <rect width="1200" height="420" fill="url(#ab-bg)"/>
     <rect width="1200" height="420" fill="url(#ab-glow)"/>
-    <rect width="1200" height="420" fill="url(#ab-scan)"/>
+
+    <!-- Glowing Outer Frame Border -->
+    <rect x="3" y="3" width="1194" height="414" rx="14" fill="none" stroke="url(#ab-border)" stroke-width="2" filter="url(#neon-glow2)"/>
 
     <!-- Terminal Window Frame -->
-    <rect x="40" y="30" width="700" height="360" rx="10" fill="#14080F" stroke="#701A3D" stroke-width="1.5"/>
-    <rect x="40" y="30" width="700" height="36" rx="10" fill="#200B17"/>
+    <rect x="40" y="30" width="700" height="360" rx="10" fill="#1C0814" stroke="#FF1775" stroke-width="1.8"/>
+    <rect x="40" y="30" width="700" height="36" rx="10" fill="#2E0E22"/>
     
     <!-- Window Controls -->
-    <circle cx="65" cy="48" r="6" fill="#701A3D"/>
-    <circle cx="85" cy="48" r="6" fill="#A82C58"/>
-    <circle cx="105" cy="48" r="6" fill="#C77B9B"/>
-    <text x="390" y="52" text-anchor="middle" class="ab-mono" font-size="11" fill="#C77B9B" letter-spacing="1.5">bash — anubhav@workstation: ~</text>
+    <circle cx="65" cy="48" r="6" fill="#FF1775" filter="url(#neon-glow2)"/>
+    <circle cx="85" cy="48" r="6" fill="#FF66A3"/>
+    <circle cx="105" cy="48" r="6" fill="#FFA8CC"/>
+    <text x="390" y="52" text-anchor="middle" class="ab-mono" font-size="11" font-weight="700" fill="#FFA8CC" letter-spacing="1.5">bash — anubhav@workstation: ~</text>
 
     <!-- Terminal Content Lines -->
     <g transform="translate(65, 100)" class="ab-mono" font-size="13">
       <!-- Line 1 -->
-      <text y="0" fill="#E5B5C7" font-weight="700">&gt; whoami</text>
-      <text y="24" fill="#F8F0F3">Anubhav Yadav (@sarthi278) &#8212; Full-Stack Software Engineer</text>
+      <text y="0" fill="#FF85B2" font-weight="700">&gt; whoami</text>
+      <text y="24" fill="#FFFFFF" font-weight="600">Anubhav Yadav (@sarthi278) &#8212; Full-Stack Software Engineer</text>
 
       <!-- Line 2 -->
-      <text y="62" fill="#E5B5C7" font-weight="700">&gt; cat location.json</text>
-      <text y="86" fill="#F8F0F3">&#123; "origin": "India", "timezone": "UTC+05:30", "status": "Building 24/7" &#125;</text>
+      <text y="62" fill="#FF85B2" font-weight="700">&gt; cat location.json</text>
+      <text y="86" fill="#FFFFFF">&#123; "origin": "India", "timezone": "UTC+05:30", "status": "Building 24/7" &#125;</text>
 
       <!-- Line 3 -->
-      <text y="124" fill="#E5B5C7" font-weight="700">&gt; cat tech_core.txt</text>
-      <text y="148" fill="#F8F0F3">TypeScript &#8226; React &#8226; Next.js 14 &#8226; Node.js &#8226; Python &#8226; PostgreSQL &#8226; Docker</text>
+      <text y="124" fill="#FF85B2" font-weight="700">&gt; cat tech_core.txt</text>
+      <text y="148" fill="#FFFFFF">TypeScript &#8226; React &#8226; Next.js 14 &#8226; Node.js &#8226; Python &#8226; PostgreSQL &#8226; Docker</text>
 
       <!-- Line 4 -->
-      <text y="186" fill="#E5B5C7" font-weight="700">&gt; cat philosophy.md</text>
-      <text y="210" fill="#F8F0F3">"Turn complex backend bottlenecks into frictionless, elegant user interfaces."</text>
+      <text y="186" fill="#FF85B2" font-weight="700">&gt; cat philosophy.md</text>
+      <text y="210" fill="#FFD1E3">"Turn complex backend bottlenecks into frictionless, elegant user interfaces."</text>
 
       <!-- Active Prompt -->
-      <text y="246" fill="#701A3D" font-weight="700">&gt; <tspan fill="#E5B5C7">git status</tspan><tspan fill="#F8F0F3" class="term-cursor"> _</tspan></text>
+      <text y="246" fill="#FF1775" font-weight="700">&gt; <tspan fill="#FFA8CC">git status</tspan><tspan fill="#FFFFFF" class="term-cursor"> _</tspan></text>
     </g>
 
     <!-- Right Highlight Cards -->
     <g transform="translate(770, 30)">
       <!-- Card 1 -->
-      <rect x="0" y="0" width="390" height="110" rx="10" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="34" class="ab-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">01 // SPECIALTY</text>
-      <text x="24" y="62" class="ab-serif" font-size="20" font-weight="700" fill="#F8F0F3">High-Concurrency Web Apps</text>
-      <text x="24" y="86" class="ab-mono" font-size="11.5" fill="#E5B5C7">Optimized state, server rendering &amp; edge caching.</text>
+      <rect x="0" y="0" width="390" height="110" rx="10" fill="#1C0814" stroke="#FF1775" stroke-width="1.5"/>
+      <text x="24" y="34" class="ab-mono" font-size="11" font-weight="700" fill="#FFA8CC" letter-spacing="2">01 // SPECIALTY</text>
+      <text x="24" y="62" class="ab-serif" font-size="21" font-weight="700" fill="#FFFFFF">High-Concurrency Web Apps</text>
+      <text x="24" y="86" class="ab-mono" font-size="11.5" fill="#FFD1E3">Optimized state, server rendering &amp; edge caching.</text>
 
       <!-- Card 2 -->
-      <rect x="0" y="125" width="390" height="110" rx="10" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="159" class="ab-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">02 // BACKEND ARCHITECTURE</text>
-      <text x="24" y="187" class="ab-serif" font-size="20" font-weight="700" fill="#F8F0F3">Distributed Microservices</text>
-      <text x="24" y="211" class="ab-mono" font-size="11.5" fill="#E5B5C7">Node.js, Express, Python, FastAPI &amp; GraphQL.</text>
+      <rect x="0" y="125" width="390" height="110" rx="10" fill="#1C0814" stroke="#FF1775" stroke-width="1.5"/>
+      <text x="24" y="159" class="ab-mono" font-size="11" font-weight="700" fill="#FFA8CC" letter-spacing="2">02 // BACKEND ARCHITECTURE</text>
+      <text x="24" y="187" class="ab-serif" font-size="21" font-weight="700" fill="#FFFFFF">Distributed Microservices</text>
+      <text x="24" y="211" class="ab-mono" font-size="11.5" fill="#FFD1E3">Node.js, Express, Python, FastAPI &amp; GraphQL.</text>
 
       <!-- Card 3 -->
-      <rect x="0" y="250" width="390" height="110" rx="10" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="24" y="284" class="ab-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">03 // PROBLEM SOLVING</text>
-    <!-- Animated Corner Accents -->
-    <path d="M 18 45 L 18 18 L 45 18" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
-    <circle cx="18" cy="18" r="3" fill="#F8F0F3"/>
+      <rect x="0" y="250" width="390" height="110" rx="10" fill="#1C0814" stroke="#FF1775" stroke-width="1.5"/>
+      <text x="24" y="284" class="ab-mono" font-size="11" font-weight="700" fill="#FFA8CC" letter-spacing="2">03 // PROBLEM SOLVING</text>
+      <text x="24" y="312" class="ab-serif" font-size="21" font-weight="700" fill="#FFFFFF">Algorithmic Precision</text>
+      <text x="24" y="336" class="ab-mono" font-size="11.5" fill="#FFD1E3">Competitive coding on LeetCode &amp; HackerRank.</text>
+    </g>
 
-    <path d="M 1182 45 L 1182 18 L 1155 18" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
-    <circle cx="1182" cy="18" r="3" fill="#F8F0F3"/>
+    <!-- Animated Corner Brackets -->
+    <path d="M 18 45 L 18 18 L 45 18" fill="none" stroke="#FFA8CC" stroke-width="2.5"/>
+    <circle cx="18" cy="18" r="4" fill="#FFFFFF" filter="url(#neon-glow2)"/>
 
-    <path d="M 18 375 L 18 402 L 45 402" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
-    <circle cx="18" cy="402" r="3" fill="#F8F0F3"/>
+    <path d="M 1182 45 L 1182 18 L 1155 18" fill="none" stroke="#FFA8CC" stroke-width="2.5"/>
+    <circle cx="1182" cy="18" r="4" fill="#FFFFFF" filter="url(#neon-glow2)"/>
 
-    <path d="M 1182 375 L 1182 402 L 1155 402" fill="none" stroke="#E5B5C7" stroke-width="2" opacity=".7"/>
-    <circle cx="1182" cy="402" r="3" fill="#F8F0F3"/>
+    <path d="M 18 375 L 18 402 L 45 402" fill="none" stroke="#FFA8CC" stroke-width="2.5"/>
+    <circle cx="18" cy="402" r="4" fill="#FFFFFF" filter="url(#neon-glow2)"/>
+
+    <path d="M 1182 375 L 1182 402 L 1155 402" fill="none" stroke="#FFA8CC" stroke-width="2.5"/>
+    <circle cx="1182" cy="402" r="4" fill="#FFFFFF" filter="url(#neon-glow2)"/>
   </g>
 </svg>

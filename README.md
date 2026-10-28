@@ -3,11 +3,11 @@
 </a>
 
 <p align="center">
-  <a href="https://portfolio2-o-eight.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-portfolio2--o--eight.vercel.app-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=vercel" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-anubhav--yadav-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://leetcode.com/u/sarthi278/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-sarthi278-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=leetcode" alt="LeetCode profile"></a>
-  <a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank"><img src="https://img.shields.io/badge/HackerRank-yadavanubhav848-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=hackerrank" alt="HackerRank profile"></a>
-  <a href="https://github.com/sarthi278" target="_blank"><img src="https://img.shields.io/badge/GitHub-sarthi278-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="GitHub profile"></a>
+  <a href="https://portfolio2-o-eight.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-portfolio2--o--eight.vercel.app-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFFFFF&logo=vercel" alt="Portfolio website"></a>
+  <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-anubhav--yadav-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFFFFF&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://leetcode.com/u/sarthi278/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-sarthi278-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFA116&logo=leetcode" alt="LeetCode profile"></a>
+  <a href="https://www.hackerrank.com/profile/yadavanubhav848" target="_blank"><img src="https://img.shields.io/badge/HackerRank-yadavanubhav848-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=00EA64&logo=hackerrank" alt="HackerRank profile"></a>
+  <a href="https://github.com/sarthi278" target="_blank"><img src="https://img.shields.io/badge/GitHub-sarthi278-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFFFFF&logo=github" alt="GitHub profile"></a>
 </p>
 
 <!-- 01 ABOUT -->
@@ -45,8 +45,8 @@
         </a>
       </td>
       <td width="50%" align="center">
-        <a href="https://streak-stats.demolab.com/?user=sarthi278&theme=dark&border=701A3D&stroke=701A3D&ring=C77B9B&fire=E5B5C7&currStreakNum=F8F0F3&sideNums=F8F0F3&currStreakLabel=E5B5C7&sideLabels=E5B5C7&dates=888888&background=14080F&hide_border=false" target="_blank">
-          <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=dark&border=701A3D&stroke=701A3D&ring=C77B9B&fire=E5B5C7&currStreakNum=F8F0F3&sideNums=F8F0F3&currStreakLabel=E5B5C7&sideLabels=E5B5C7&dates=888888&background=14080F&hide_border=false" width="100%" alt="Streak Card in Velvet Wine" />
+        <a href="https://streak-stats.demolab.com/?user=sarthi278&theme=dark&border=FF1775&stroke=FF1775&ring=FFA8CC&fire=FF1775&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFA8CC&sideLabels=FFA8CC&dates=FFA8CC&background=1C0814&hide_border=false" target="_blank">
+          <img src="https://streak-stats.demolab.com/?user=sarthi278&theme=dark&border=FF1775&stroke=FF1775&ring=FFA8CC&fire=FF1775&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFA8CC&sideLabels=FFA8CC&dates=FFA8CC&background=1C0814&hide_border=false" width="100%" alt="Streak Card in Luminous Velvet" />
         </a>
       </td>
     </tr>
@@ -57,10 +57,10 @@
 <img src="https://raw.githubusercontent.com/sarthi278/sarthi278/main/assets/title-connect.svg" width="100%" alt="06 Connect — Let's build something worth explaining.">
 
 <p align="center">
-  <a href="mailto:contact@anubhavyadav.dev"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-anubhav--yadav-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=linkedin" alt="LinkedIn"></a>
-  <a href="https://portfolio2-o-eight.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Explore%20Work-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=firefox" alt="Portfolio"></a>
-  <a href="https://leetcode.com/u/sarthi278/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Solve%20Problems-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=leetcode" alt="LeetCode"></a>
+  <a href="mailto:contact@anubhavyadav.dev"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFFFFF&logo=gmail" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/anubhav-yadav-it27/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-anubhav--yadav-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFFFFF&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://portfolio2-o-eight.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Explore%20Work-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFFFFF&logo=firefox" alt="Portfolio"></a>
+  <a href="https://leetcode.com/u/sarthi278/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Solve%20Problems-C41C5E?style=for-the-badge&labelColor=1C0612&logoColor=FFA116&logo=leetcode" alt="LeetCode"></a>
 </p>
 
 <!-- FOOTER SIGNATURE -->

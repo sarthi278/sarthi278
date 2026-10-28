@@ -1,8 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="prj-t">
   <title id="prj-t">Selected Work - Projects</title>
   <defs>
-    <linearGradient id="prj-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-    <clipPath id="prj-clip"><rect width="1200" height="360" rx="14"/></clipPath>
+    <radialGradient id="prj-bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#3A0F25"/>
+      <stop offset="60%" stop-color="#200915"/>
+      <stop offset="100%" stop-color="#12040B"/>
+    </radialGradient>
+    <radialGradient id="prj-glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#FF1775" stop-opacity=".6"/><stop offset="100%" stop-color="#FF1775" stop-opacity="0"/></radialGradient>
+    <linearGradient id="prj-border" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FF66A3"/><stop offset="50%" stop-color="#FF1775"/><stop offset="100%" stop-color="#FF66A3"/></linearGradient>
+    <filter id="neon-glow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="prj-clip"><rect width="1200" height="360" rx="16"/></clipPath>
   </defs>
   <style>
     .prj-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
@@ -10,101 +20,105 @@
   </style>
   <g clip-path="url(#prj-clip)">
     <rect width="1200" height="360" fill="url(#prj-bg)"/>
+    <rect width="1200" height="360" fill="url(#prj-glow)"/>
+
+    <!-- Luminous Outer Border -->
+    <rect x="3" y="3" width="1194" height="354" rx="14" fill="none" stroke="url(#prj-border)" stroke-width="2" filter="url(#neon-glow4)"/>
 
     <!-- Project 1: Portfolio 2.0 Web Platform -->
     <g transform="translate(40, 20)">
-      <rect width="540" height="320" rx="12" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="28" y="38" class="prj-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">01 // PRODUCTION WEB APPLICATION</text>
-      <text x="28" y="72" class="prj-serif" font-size="28" font-weight="700" fill="#F8F0F3">Portfolio 2.0 Platform</text>
-      <text x="28" y="104" class="prj-mono" font-size="12" fill="#E5B5C7">
+      <rect width="540" height="320" rx="12" fill="#1C0814" stroke="#FF1775" stroke-width="1.6"/>
+      <text x="28" y="38" class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC" letter-spacing="2">01 // PRODUCTION WEB APPLICATION</text>
+      <text x="28" y="74" class="prj-serif" font-size="30" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow4)">Portfolio 2.0 Platform</text>
+      <text x="28" y="104" class="prj-mono" font-size="12" fill="#FFD1E3">
         Ultra-fast interactive personal platform with Next.js 14 &amp; Tailwind.
       </text>
       
       <!-- Tech Stack Badges -->
-      <g transform="translate(28, 128)">
-        <rect width="70" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="35" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">Next.js 14</text>
+      <g transform="translate(28, 126)">
+        <rect width="80" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="40" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">Next.js 14</text>
 
-        <rect x="80" width="85" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="122" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">TypeScript</text>
+        <rect x="90" width="95" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="137" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">TypeScript</text>
 
-        <rect x="175" width="85" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="217" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">TailwindCSS</text>
+        <rect x="195" width="95" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="242" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">TailwindCSS</text>
 
-        <rect x="270" width="60" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="300" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">Vercel</text>
+        <rect x="300" width="70" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="335" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">Vercel</text>
       </g>
 
-      <line x1="28" y1="172" x2="512" y2="172" stroke="#701A3D" stroke-width="1"/>
+      <line x1="28" y1="172" x2="512" y2="172" stroke="#FF1775" stroke-width="1.2"/>
 
       <!-- Metrics Breakdown -->
       <g transform="translate(28, 202)">
-        <text class="prj-mono" font-size="10" fill="#C77B9B">PERFORMANCE</text>
-        <text y="24" class="prj-serif" font-size="22" font-weight="700" fill="#F8F0F3">100/100</text>
-        <text y="42" class="prj-mono" font-size="9" fill="#E5B5C7">Lighthouse Score</text>
+        <text class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC">PERFORMANCE</text>
+        <text y="26" class="prj-serif" font-size="24" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow4)">100/100</text>
+        <text y="44" class="prj-mono" font-size="9.5" fill="#FFD1E3">Lighthouse Score</text>
 
         <g transform="translate(160, 0)">
-          <text class="prj-mono" font-size="10" fill="#C77B9B">RENDER TIME</text>
-          <text y="24" class="prj-serif" font-size="22" font-weight="700" fill="#F8F0F3">&lt;80ms</text>
-          <text y="42" class="prj-mono" font-size="9" fill="#E5B5C7">Edge SSR Latency</text>
+          <text class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC">RENDER TIME</text>
+          <text y="26" class="prj-serif" font-size="24" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow4)">&lt;80ms</text>
+          <text y="44" class="prj-mono" font-size="9.5" fill="#FFD1E3">Edge SSR Latency</text>
         </g>
 
         <g transform="translate(320, 0)">
-          <text class="prj-mono" font-size="10" fill="#C77B9B">STATUS</text>
-          <text y="24" class="prj-serif" font-size="22" font-weight="700" fill="#00ff66">LIVE</text>
-          <text y="42" class="prj-mono" font-size="9" fill="#E5B5C7">Production Deploy</text>
+          <text class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC">STATUS</text>
+          <text y="26" class="prj-serif" font-size="24" font-weight="700" fill="#00ff66" filter="url(#neon-glow4)">LIVE</text>
+          <text y="44" class="prj-mono" font-size="9.5" fill="#FFD1E3">Production Deploy</text>
         </g>
       </g>
 
-      <text x="28" y="292" class="prj-mono" font-size="11" fill="#C77B9B">&gt; URL: portfolio2-o-eight.vercel.app</text>
+      <text x="28" y="294" class="prj-mono" font-size="11.5" font-weight="700" fill="#FF85B2">&gt; URL: portfolio2-o-eight.vercel.app</text>
     </g>
 
     <!-- Project 2: High-Concurrency Backend Service -->
     <g transform="translate(620, 20)">
-      <rect width="540" height="320" rx="12" fill="#14080F" stroke="#701A3D" stroke-width="1.2"/>
-      <text x="28" y="38" class="prj-mono" font-size="10.5" fill="#C77B9B" letter-spacing="2">02 // MICROSERVICES ARCHITECTURE</text>
-      <text x="28" y="72" class="prj-serif" font-size="28" font-weight="700" fill="#F8F0F3">Resilient API Core</text>
-      <text x="28" y="104" class="prj-mono" font-size="12" fill="#E5B5C7">
+      <rect width="540" height="320" rx="12" fill="#1C0814" stroke="#FF1775" stroke-width="1.6"/>
+      <text x="28" y="38" class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC" letter-spacing="2">02 // MICROSERVICES ARCHITECTURE</text>
+      <text x="28" y="74" class="prj-serif" font-size="30" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow4)">Resilient API Core</text>
+      <text x="28" y="104" class="prj-mono" font-size="12" fill="#FFD1E3">
         Scalable REST and GraphQL backend services with Redis pub/sub.
       </text>
       
       <!-- Tech Stack Badges -->
-      <g transform="translate(28, 128)">
-        <rect width="65" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="32" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">Node.js</text>
+      <g transform="translate(28, 126)">
+        <rect width="75" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="37" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">Node.js</text>
 
-        <rect x="75" width="65" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="107" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">Python</text>
+        <rect x="85" width="75" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="122" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">Python</text>
 
-        <rect x="150" width="85" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="192" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">PostgreSQL</text>
+        <rect x="170" width="95" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="217" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">PostgreSQL</text>
 
-        <rect x="245" width="60" height="22" rx="4" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
-        <text x="275" y="15" text-anchor="middle" class="prj-mono" font-size="10" fill="#F8F0F3">Redis</text>
+        <rect x="275" width="70" height="24" rx="5" fill="#380C22" stroke="#FF1775" stroke-width="1.2"/>
+        <text x="310" y="16" text-anchor="middle" class="prj-mono" font-size="11" font-weight="700" fill="#FFFFFF">Redis</text>
       </g>
 
-      <line x1="28" y1="172" x2="512" y2="172" stroke="#701A3D" stroke-width="1"/>
+      <line x1="28" y1="172" x2="512" y2="172" stroke="#FF1775" stroke-width="1.2"/>
 
       <!-- Metrics Breakdown -->
       <g transform="translate(28, 202)">
-        <text class="prj-mono" font-size="10" fill="#C77B9B">THROUGHPUT</text>
-        <text y="24" class="prj-serif" font-size="22" font-weight="700" fill="#F8F0F3">5k+ req/s</text>
-        <text y="42" class="prj-mono" font-size="9" fill="#E5B5C7">Stress-tested load</text>
+        <text class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC">THROUGHPUT</text>
+        <text y="26" class="prj-serif" font-size="24" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow4)">5k+ req/s</text>
+        <text y="44" class="prj-mono" font-size="9.5" fill="#FFD1E3">Stress-tested load</text>
 
         <g transform="translate(160, 0)">
-          <text class="prj-mono" font-size="10" fill="#C77B9B">AVAILABILITY</text>
-          <text y="24" class="prj-serif" font-size="22" font-weight="700" fill="#F8F0F3">99.8%</text>
-          <text y="42" class="prj-mono" font-size="9" fill="#E5B5C7">Zero downtime</text>
+          <text class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC">AVAILABILITY</text>
+          <text y="26" class="prj-serif" font-size="24" font-weight="700" fill="#FFFFFF" filter="url(#neon-glow4)">99.8%</text>
+          <text y="44" class="prj-mono" font-size="9.5" fill="#FFD1E3">Zero downtime</text>
         </g>
 
         <g transform="translate(320, 0)">
-          <text class="prj-mono" font-size="10" fill="#C77B9B">SECURITY</text>
-          <text y="24" class="prj-serif" font-size="22" font-weight="700" fill="#00f3ff">JWT + RBAC</text>
-          <text y="42" class="prj-mono" font-size="9" fill="#E5B5C7">Rate-limited</text>
+          <text class="prj-mono" font-size="10.5" font-weight="700" fill="#FFA8CC">SECURITY</text>
+          <text y="26" class="prj-serif" font-size="24" font-weight="700" fill="#00f3ff" filter="url(#neon-glow4)">JWT+RBAC</text>
+          <text y="44" class="prj-mono" font-size="9.5" fill="#FFD1E3">Rate-limited</text>
         </g>
       </g>
 
-      <text x="28" y="292" class="prj-mono" font-size="11" fill="#C77B9B">&gt; GITHUB: github.com/sarthi278</text>
+      <text x="28" y="294" class="prj-mono" font-size="11.5" font-weight="700" fill="#FF85B2">&gt; GITHUB: github.com/sarthi278</text>
     </g>
   </g>
 </svg>
