@@ -1,42 +1,80 @@
-# 🚀 Quick Setup Guide: Animated Terminal GitHub Profile for @sarthi278
+# 🌌 Setup Guide — Cosmic Universe GitHub Profile for @sarthi278
 
-Everything is already configured specifically for **Anubhav Yadav** ([@sarthi278](https://github.com/sarthi278))!
+Your profile has been **completely redesigned** with an animated universe theme featuring:
+- 🌟 **Animated star field** with twinkling, pulsing, and shooting stars
+- 🪐 **Orbiting planet** with moons and Saturn-style rings
+- 🚀 **Floating rocket** with animated flame
+- 🌌 **Nebula background** (purple, blue, violet gradients)
+- 💜 **Purple cosmic snake** eating your contribution graph
+- 📊 Live stats, activity graph, and LeetCode card
 
 ---
 
-### Step 1: Push the README to GitHub
-Open your terminal in `github-profile-readme` and run:
+## 📂 New Files Created
+
+| File | Purpose |
+|------|---------|
+| `assets/universe-header.svg` | 🌌 Animated hero header with stars, planet, rocket |
+| `assets/cosmic-about.svg` | 👨‍💻 About section with orbit rings |
+| `assets/cosmic-tech.svg` | 🛠️ Tech stack in space theme |
+| `assets/cosmic-footer.svg` | 🚀 Animated footer signature |
+| `README.md` | ✨ Fully rebuilt profile |
+| `.github/workflows/snake.yml` | 🐍 Snake in cosmic purple palette |
+
+---
+
+## 🚀 Step 1 — Push to GitHub
 
 ```bash
+cd github-profile-readme
+git add .
+git commit -m "🌌 Cosmic Universe Profile Redesign"
 git push -u origin main --force
 ```
-*(If prompted, authenticate with your GitHub account / Personal Access Token or GitHub CLI).*
 
 ---
 
-### Step 2: Enable Workflow Permissions for Contribution Snake
-To allow the automated snake game to commit its animated SVG to your repository:
-1. Go to your repository: [github.com/sarthi278/sarthi278](https://github.com/sarthi278/sarthi278)
-2. Click **Settings** (top tab) -> **Actions** -> **General**.
-3. Scroll down to **Workflow permissions**.
-4. Select **"Read and write permissions"** and click **Save**.
+## ⚙️ Step 2 — Enable Workflow Permissions
+
+1. Go to: [github.com/sarthi278/sarthi278](https://github.com/sarthi278/sarthi278)
+2. **Settings** → **Actions** → **General**
+3. Under **Workflow permissions** → select **"Read and write permissions"**
+4. Click **Save**
 
 ---
 
-### Step 3: Trigger the First Snake Generation
-1. Go to the **Actions** tab in your repository.
-2. Under "Workflows" on the left, click **"Generate Contribution Snake Animation"**.
-3. Click the **"Run workflow"** button on the right -> click the green **"Run workflow"** confirmation.
-4. After ~30 seconds, it will create the `output` branch containing your animated SVGs (`github-contribution-grid-snake-dark.svg`).
-5. Refresh your GitHub profile: [github.com/sarthi278](https://github.com/sarthi278) — your live animated profile will be visible!
+## 🐍 Step 3 — Trigger the Snake
+
+1. Go to the **Actions** tab in your repo
+2. Click **"Generate Contribution Snake Animation"** on the left
+3. Click **"Run workflow"** → confirm with the green button
+4. Wait ~30 seconds → your cosmic purple snake will be generated in the `output` branch
 
 ---
 
-### Features Configured:
-- 🟢 **Header**: Dynamic Matrix green wavy banner with terminal prompt `anubhav@workstation:~$ whoami`.
-- ⚡ **Animated Typing SVG**: Real-time typing loop for Full-Stack Web Developer.
-- 💻 **Terminal Neofetch**: Personalized system block for Anubhav Yadav.
-- 🛠️ **Tech Arsenal**: Curated dark badge grid for React, Next.js, Node.js, Python, PostgreSQL, Docker, Linux, etc.
-- 🕹️ **Live Snake Game**: Dynamically eats your GitHub contribution graph in matrix colors.
-- 📊 **Stats Cards**: Preconfigured for `sarthi278` (commits, streak, top languages, activity wave).
-- 🔗 **Social Badges**: Direct link to your [LinkedIn profile](https://www.linkedin.com/in/anubhav-yadav-it27/).
+## 🌟 Step 4 — View Your Live Profile
+
+Visit → **[github.com/sarthi278](https://github.com/sarthi278)**
+
+---
+
+## ✨ What's Animated on Your Profile
+
+| Element | Animation |
+|---------|-----------|
+| ⭐ Stars | Twinkling opacity pulses (different speeds) |
+| ✨ Bright stars | Cross-shaped sparkle effect |
+| 💫 Shooting stars | Diagonal streak across screen (every ~6-10s) |
+| 🪐 Planet | Orbiting ring + orbiting moon |
+| 🚀 Rocket | Floating up/down + flickering flame |
+| 🔤 Name text | Fade-in reveal with cosmic glow |
+| 🌈 Subtitle | Cycling color (purple → blue → green → pink) |
+| ⌨️ Cursor | Blinking terminal cursor |
+| 💚 Status dot | Pulsing green "available" indicator |
+| 🐍 Snake | Purple cosmic snake eating contributions |
+| 📊 Typing SVG | 6 rotating role descriptions |
+| 🎨 Footer text | Color-cycling cosmic signature |
+
+---
+
+> _"The cosmos is within us. We are made of star-stuff." — Carl Sagan_

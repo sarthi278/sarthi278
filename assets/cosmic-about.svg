@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#0d0221"/>
+      <stop offset="100%" stop-color="#030010"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg)"/>
+
+  <!-- Subtle star field -->
+  <g opacity="0.5">
+    <circle cx="20" cy="15" r="0.8" fill="white"/><circle cx="80" cy="30" r="0.6" fill="white"/>
+    <circle cx="150" cy="10" r="0.7" fill="#C8D6FF"/><circle cx="230" cy="25" r="0.8" fill="white"/>
+    <circle cx="320" cy="8" r="0.6" fill="white"/><circle cx="420" cy="20" r="0.7" fill="#C8D6FF"/>
+    <circle cx="510" cy="12" r="0.8" fill="white"/><circle cx="600" cy="28" r="0.6" fill="white"/>
+    <circle cx="690" cy="7" r="0.7" fill="#C8D6FF"/><circle cx="780" cy="22" r="0.8" fill="white"/>
+    <circle cx="860" cy="15" r="0.6" fill="white"/>
+    <circle cx="45" cy="195" r="0.7" fill="white"/><circle cx="130" cy="205" r="0.6" fill="#C8D6FF"/>
+    <circle cx="250" cy="198" r="0.8" fill="white"/><circle cx="370" cy="210" r="0.6" fill="white"/>
+    <circle cx="490" cy="202" r="0.7" fill="#C8D6FF"/><circle cx="620" cy="208" r="0.8" fill="white"/>
+    <circle cx="740" cy="195" r="0.6" fill="white"/><circle cx="855" cy="204" r="0.7" fill="#C8D6FF"/>
+  </g>
+
+  <!-- Left side: Cosmic avatar / portrait placeholder with orbit rings -->
+  <g transform="translate(145,110)">
+    <!-- Outer orbit ring -->
+    <ellipse cx="0" cy="0" rx="80" ry="25" fill="none" stroke="#6B21A8" stroke-width="1" opacity="0.4" stroke-dasharray="5,5">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Inner orbit ring -->
+    <ellipse cx="0" cy="0" rx="58" ry="18" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.5" stroke-dasharray="3,4">
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Orbiting dot 1 -->
+    <circle cx="80" cy="0" r="4" fill="#A78BFA">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="15s" repeatCount="indefinite" additive="sum"/>
+    </circle>
+    <!-- Orbiting dot 2 -->
+    <circle cx="-58" cy="0" r="3" fill="#EC4899">
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="10s" repeatCount="indefinite" additive="sum"/>
+    </circle>
+    <!-- Avatar circle -->
+    <circle cx="0" cy="0" r="52" fill="#1a0533" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="0" y="8" text-anchor="middle" font-size="40">🧑‍💻</text>
+    <!-- Glow ring -->
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#A78BFA" stroke-width="2" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Right side: About text -->
+  <g font-family="'Courier New', monospace">
+    <!-- Section label -->
+    <text x="310" y="50" font-size="11" fill="#6B21A8" letter-spacing="4">▸ ABOUT.ME</text>
+
+    <!-- Name headline -->
+    <text x="310" y="82" font-size="22" font-weight="bold" fill="white" filter="url(#glow)">
+      Anubhav Yadav
+    </text>
+    <text x="510" y="82" font-size="13" fill="#A78BFA"> // sarthi278</text>
+
+    <!-- Role with animated color -->
+    <text x="310" y="108" font-size="13" letter-spacing="1">
+      <tspan fill="#4ADE80">const</tspan>
+      <tspan fill="#E2E8F0"> role </tspan>
+      <tspan fill="#A78BFA">= </tspan>
+      <tspan fill="#FCD34D">"</tspan>
+      <tspan fill="#F472B6">Full-Stack Developer &amp; Solutions Architect</tspan>
+      <tspan fill="#FCD34D">"</tspan>
+    </text>
+
+    <!-- Description lines -->
+    <text x="310" y="132" font-size="12" fill="#94A3B8">
+      🌌 Engineering high-concurrency systems &amp; seamless UX
+    </text>
+    <text x="310" y="152" font-size="12" fill="#94A3B8">
+      🚀 TypeScript · React · Next.js · Node.js · Python · PostgreSQL
+    </text>
+    <text x="310" y="172" font-size="12" fill="#94A3B8">
+      🛸 Docker · Linux · REST APIs · Microservices · CI/CD
+    </text>
+
+    <!-- Status indicator -->
+    <circle cx="314" cy="195" r="5" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="326" y="200" font-size="11" fill="#22C55E" letter-spacing="1">
+      Available for opportunities · India 🇮🇳
+    </text>
+  </g>
+
+  <!-- Decorative corner brackets -->
+  <g stroke="#6B21A8" stroke-width="1.5" fill="none" opacity="0.5">
+    <polyline points="5,5 5,20 20,20"/><polyline points="880,5 895,5 895,20"/>
+    <polyline points="5,200 5,215 20,215"/><polyline points="880,215 895,215 895,200"/>
+  </g>
+</svg>
+

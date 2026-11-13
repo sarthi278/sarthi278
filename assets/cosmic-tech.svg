@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#0d0221"/><stop offset="100%" stop-color="#030010"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Badge gradient -->
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e0a35"/><stop offset="100%" stop-color="#0f0520"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="280" fill="url(#bg)"/>
+
+  <!-- Star field -->
+  <g opacity="0.4">
+    <circle cx="30" cy="20" r="0.7" fill="white"/><circle cx="100" cy="8" r="0.5" fill="#C8D6FF"/>
+    <circle cx="200" cy="15" r="0.6" fill="white"/><circle cx="300" cy="5" r="0.7" fill="white"/>
+    <circle cx="420" cy="18" r="0.5" fill="#C8D6FF"/><circle cx="540" cy="10" r="0.6" fill="white"/>
+    <circle cx="660" cy="22" r="0.7" fill="white"/><circle cx="770" cy="6" r="0.5" fill="#C8D6FF"/>
+    <circle cx="860" cy="17" r="0.6" fill="white"/>
+    <circle cx="50" cy="260" r="0.7" fill="white"/><circle cx="180" cy="270" r="0.5" fill="#C8D6FF"/>
+    <circle cx="310" cy="262" r="0.6" fill="white"/><circle cx="470" cy="275" r="0.7" fill="white"/>
+    <circle cx="590" cy="265" r="0.5" fill="#C8D6FF"/><circle cx="720" cy="272" r="0.6" fill="white"/>
+    <circle cx="850" cy="258" r="0.7" fill="white"/>
+  </g>
+
+  <!-- Section header -->
+  <text x="450" y="38" text-anchor="middle" font-family="'Courier New', monospace"
+    font-size="11" fill="#6B21A8" letter-spacing="6">▸ TECH.ARSENAL // TOOLS I REACH FOR</text>
+  <line x1="150" y1="48" x2="750" y2="48" stroke="#6B21A8" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- === TECH BADGES as styled SVG elements === -->
+  <!-- Row 1: Languages -->
+  <text x="30" y="78" font-family="'Courier New', monospace" font-size="10" fill="#A78BFA" letter-spacing="2">LANGUAGES</text>
+
+  <!-- Python badge -->
+  <g transform="translate(30,88)">
+    <rect rx="6" ry="6" width="85" height="28" fill="url(#badgeGrad)" stroke="#3776AB" stroke-width="1"/>
+    <text x="12" y="18" font-family="sans-serif" font-size="11" fill="#3776AB">🐍</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Python</text>
+  </g>
+  <!-- TypeScript -->
+  <g transform="translate(125,88)">
+    <rect rx="6" ry="6" width="105" height="28" fill="url(#badgeGrad)" stroke="#3178C6" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#3178C6">𝑻𝑺</text>
+    <text x="30" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">TypeScript</text>
+  </g>
+  <!-- JavaScript -->
+  <g transform="translate(240,88)">
+    <rect rx="6" ry="6" width="105" height="28" fill="url(#badgeGrad)" stroke="#F7DF1E" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#F7DF1E">𝑱𝑺</text>
+    <text x="30" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">JavaScript</text>
+  </g>
+  <!-- HTML5 -->
+  <g transform="translate(355,88)">
+    <rect rx="6" ry="6" width="80" height="28" fill="url(#badgeGrad)" stroke="#E34F26" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#E34F26">⬡</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">HTML5</text>
+  </g>
+  <!-- CSS3 -->
+  <g transform="translate(445,88)">
+    <rect rx="6" ry="6" width="75" height="28" fill="url(#badgeGrad)" stroke="#1572B6" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#1572B6">⬡</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">CSS3</text>
+  </g>
+  <!-- SQL -->
+  <g transform="translate(530,88)">
+    <rect rx="6" ry="6" width="68" height="28" fill="url(#badgeGrad)" stroke="#336791" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="10" fill="#336791">🗄</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">SQL</text>
+  </g>
+
+  <!-- Row 2: Frontend -->
+  <text x="30" y="140" font-family="'Courier New', monospace" font-size="10" fill="#EC4899" letter-spacing="2">FRONTEND</text>
+
+  <!-- React -->
+  <g transform="translate(30,150)">
+    <rect rx="6" ry="6" width="82" height="28" fill="url(#badgeGrad)" stroke="#61DAFB" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#61DAFB">⚛</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">React</text>
+  </g>
+  <!-- Next.js -->
+  <g transform="translate(122,150)">
+    <rect rx="6" ry="6" width="88" height="28" fill="url(#badgeGrad)" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="white">▲</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Next.js</text>
+  </g>
+  <!-- Tailwind -->
+  <g transform="translate(220,150)">
+    <rect rx="6" ry="6" width="100" height="28" fill="url(#badgeGrad)" stroke="#06B6D4" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#06B6D4">🌊</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Tailwind</text>
+  </g>
+  <!-- Redux -->
+  <g transform="translate(330,150)">
+    <rect rx="6" ry="6" width="85" height="28" fill="url(#badgeGrad)" stroke="#764ABC" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#764ABC">◈</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Redux</text>
+  </g>
+
+  <!-- Row 3: Backend -->
+  <text x="30" y="202" font-family="'Courier New', monospace" font-size="10" fill="#34D399" letter-spacing="2">BACKEND &amp; CLOUD</text>
+
+  <!-- Node.js -->
+  <g transform="translate(30,212)">
+    <rect rx="6" ry="6" width="88" height="28" fill="url(#badgeGrad)" stroke="#339933" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#339933">⬡</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Node.js</text>
+  </g>
+  <!-- Express -->
+  <g transform="translate(128,212)">
+    <rect rx="6" ry="6" width="92" height="28" fill="url(#badgeGrad)" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="white">⚡</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Express</text>
+  </g>
+  <!-- PostgreSQL -->
+  <g transform="translate(230,212)">
+    <rect rx="6" ry="6" width="108" height="28" fill="url(#badgeGrad)" stroke="#336791" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#336791">🐘</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">PostgreSQL</text>
+  </g>
+  <!-- Docker -->
+  <g transform="translate(348,212)">
+    <rect rx="6" ry="6" width="88" height="28" fill="url(#badgeGrad)" stroke="#2496ED" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#2496ED">🐳</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Docker</text>
+  </g>
+  <!-- Linux -->
+  <g transform="translate(446,212)">
+    <rect rx="6" ry="6" width="82" height="28" fill="url(#badgeGrad)" stroke="#FCC624" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#FCC624">🐧</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Linux</text>
+  </g>
+  <!-- Git -->
+  <g transform="translate(538,212)">
+    <rect rx="6" ry="6" width="72" height="28" fill="url(#badgeGrad)" stroke="#F05032" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#F05032">⑂</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">Git</text>
+  </g>
+  <!-- MongoDB -->
+  <g transform="translate(620,212)">
+    <rect rx="6" ry="6" width="98" height="28" fill="url(#badgeGrad)" stroke="#47A248" stroke-width="1"/>
+    <text x="10" y="18" font-family="sans-serif" font-size="11" fill="#47A248">🍃</text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="10" fill="#E2E8F0">MongoDB</text>
+  </g>
+
+  <!-- Animated shooting star across tech section -->
+  <line x1="0" y1="130" x2="60" y2="140" stroke="white" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite" begin="3s"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;840,60" dur="7s" repeatCount="indefinite" begin="3s"/>
+  </line>
+
+  <!-- Corner brackets -->
+  <g stroke="#6B21A8" stroke-width="1.5" fill="none" opacity="0.4">
+    <polyline points="5,5 5,20 20,20"/><polyline points="880,5 895,5 895,20"/>
+    <polyline points="5,260 5,275 20,275"/><polyline points="880,275 895,275 895,260"/>
+  </g>
+</svg>
+
